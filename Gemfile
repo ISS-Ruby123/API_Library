@@ -12,6 +12,7 @@ gem 'simplecov'
 gem 'vcr'
 gem 'webmock'
 
+# Quality test gems
 gem 'flog'
 gem 'reek'
 gem 'rubocop'

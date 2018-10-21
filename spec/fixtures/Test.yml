@@ -1,0 +1,391 @@
+---
+- location:
+    lat: 24.79403659999999
+    lng: 120.9930654
+  types: cafe
+  name: 蘇格貓底二手書咖啡屋
+  address: No. 101號, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7955259
+    lng: 120.9949543
+  types: cafe
+  name: Smile Cafe 斯麥爾咖啡館
+  address: 101 光復路二段 光明里, 東區
+- location:
+    lat: 24.7935131
+    lng: 120.9920022
+  types: cafe
+  name: 空堂咖啡
+  address: 號, No. 101, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.792323
+    lng: 120.9950025
+  types: cafe
+  name: 水木咖啡 x 小客廳
+  address: 清華 大學 風雲 樓 一 樓 水木 書 苑 內, No. 101, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7923912
+    lng: 120.9940296
+  types: cafe
+  name: Panda Cafe'
+  address: 新竹市東區光復路二段101號
+- location:
+    lat: 24.79073139999999
+    lng: 120.9913514
+  types: cafe
+  name: 創意cafe
+  address: Tsen-Min Lee Building, 300新竹市東區清華大學, 李存敏館, East District
+- location:
+    lat: 24.7942417
+    lng: 120.9922028
+  types: library
+  name: Physics Research Center Library
+  address: No. 101號, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.795311
+    lng: 120.994712
+  types: library
+  name: NTHU Library
+  address: No. 101, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7902748
+    lng: 120.9893206
+  types: library
+  name: NTHU Library Humanities and Social Sciences Branch
+  address: No. 101, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7950121
+    lng: 120.9935182
+  types: library
+  name: 國立清華大學數學圖書分館
+  address: 155 巷 號, No. 132, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7915962
+    lng: 120.9918017
+  types: police
+  name: 國立清華大學駐警隊
+  address: No. 101, 光復路2段, East District
+- location:
+    lat: 24.7915962
+    lng: 120.9918017
+  types: local_government_office
+  name: 國立清華大學駐警隊
+  address: No. 101, 光復路2段, East District
+- location:
+    lat: 24.7952509
+    lng: 120.9965788
+  types: local_government_office
+  name: 合謙化學股份有限公司
+  address: 東區光明里
+- location:
+    lat: 24.79219879999999
+    lng: 120.9943571
+  types: restaurant
+  name: Shuimu Restaurant
+  address: No. 101, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.792293
+    lng: 120.994924
+  types: restaurant
+  name: 漢堡人速食餐飲
+  address: No. 101號, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7930185
+    lng: 120.9929926
+  types: restaurant
+  name: 霏霏鍋燒麵
+  address: 東區光明里
+- location:
+    lat: 24.7929817
+    lng: 120.993008
+  types: restaurant
+  name: 海盜滷味
+  address: 東區光明里
+- location:
+    lat: 24.7930167
+    lng: 120.9929822
+  types: restaurant
+  name: 大洪 大食管
+  address: 東區光明里
+- location:
+    lat: 24.7930742
+    lng: 120.9929761
+  types: restaurant
+  name: 原牛
+  address: 東區光明里
+- location:
+    lat: 24.7931162
+    lng: 120.9929731
+  types: restaurant
+  name: 李記小館
+  address: 東區光明里
+- location:
+    lat: 24.7929156
+    lng: 120.9930915
+  types: restaurant
+  name: McDonald's
+  address: No. 101號, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7931494
+    lng: 120.9929691
+  types: restaurant
+  name: 比司多
+  address: 新竹, East District
+- location:
+    lat: 24.7922801
+    lng: 120.9940369
+  types: restaurant
+  name: 弘謙食堂
+  address: 東區光明里
+- location:
+    lat: 24.7922521
+    lng: 120.9940715
+  types: restaurant
+  name: 三顧茅廬
+  address: 東區光明里
+- location:
+    lat: 24.7922658
+    lng: 120.9942579
+  types: restaurant
+  name: 小木屋鬆餅新竹清大店
+  address: 東區光明里
+- location:
+    lat: 24.7920895
+    lng: 120.9943099
+  types: restaurant
+  name: 金展自助餐
+  address: 光明里, 300, East District
+- location:
+    lat: 24.7921611
+    lng: 120.9943742
+  types: restaurant
+  name: 和風風味屋（清大）
+  address: 東區光明里
+- location:
+    lat: 24.792067
+    lng: 120.9944155
+  types: restaurant
+  name: 酷雞KUGI
+  address: 東區光明里
+- location:
+    lat: 24.7921251
+    lng: 120.9944812
+  types: restaurant
+  name: 八方雲集
+  address: 東區光明里
+- location:
+    lat: 24.7922073
+    lng: 120.9947196
+  types: restaurant
+  name: 金鴻快餐
+  address: 東區光明里
+- location:
+    lat: 24.7921894
+    lng: 120.9947457
+  types: restaurant
+  name: 墨尼捲餅
+  address: 東區光明里
+- location:
+    lat: 24.7922603
+    lng: 120.9947987
+  types: restaurant
+  name: 比堤兒手感麵包專賣店(誠實商店)
+  address: Feng Yun Building清大, 水木書苑, No. 101號, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7921668
+    lng: 120.9947796
+  types: restaurant
+  name: 珍御品粥麵館
+  address: 183, East District
+- location:
+    lat: 24.792915
+    lng: 120.9930097
+  types: store
+  name: 7-Eleven
+  address: No. 101號, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.792242
+    lng: 120.994139
+  types: store
+  name: 清大水漫
+  address: 光復 路2段101號清華大學 水木生活中心2樓 清大水漫, East District
+- location:
+    lat: 24.792323
+    lng: 120.9950025
+  types: store
+  name: 水木咖啡 x 小客廳
+  address: 清華 大學 風雲 樓 一 樓 水木 書 苑 內, No. 101, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7923957
+    lng: 120.9939766
+  types: store
+  name: 清大眼鏡部
+  address: 新竹, East District
+- location:
+    lat: 24.7923375
+    lng: 120.9940992
+  types: store
+  name: 水木百貨
+  address: No. 101, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7922411
+    lng: 120.9942337
+  types: store
+  name: 全家
+  address: 東區光明里
+- location:
+    lat: 24.7921955
+    lng: 120.9943431
+  types: store
+  name: 全家便利店 FamilyMart 清大水木店
+  address: No. 101號, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7923339
+    lng: 120.9946525
+  types: store
+  name: 水木書苑
+  address: 101號風雲樓一樓, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7923026
+    lng: 120.994678
+  types: store
+  name: 清大-水木書苑
+  address: Lane 183, Gongyuan Road, East District
+- location:
+    lat: 24.7922457
+    lng: 120.9948087
+  types: store
+  name: 帕森 PASTA
+  address: 東區光明里
+- location:
+    lat: 24.7923175
+    lng: 120.9948664
+  types: store
+  name: Straight A-清華大學Apple授權校園體驗店
+  address: 清大風雲樓1F水木書苑, No. 101, 光復路二段, East District
+- location:
+    lat: 24.7963498
+    lng: 120.9950069
+  types: store
+  name: 友善書業供給合作社
+  address: No. 20, Lane 2, Anhe Street, East District
+- location:
+    lat: 24.7936169
+    lng: 120.9919454
+  types: school
+  name: 清華大學慈青社 NTHU Tzu Ching Club
+  address: 學生活動中心 (蒙民偉樓) R309, ,新竹市光復路二段101號, 東區
+- location:
+    lat: 24.794481
+    lng: 120.993231
+  types: school
+  name: 清華大學材料科技館
+  address: 材料科技館, 新竹市東區光復路二段101號, East District
+- location:
+    lat: 24.7946262
+    lng: 120.9932028
+  types: school
+  name: 清華大學普物實驗室
+  address: 號, No. 124, 光復路二段155巷, 東區
+- location:
+    lat: 24.7963498
+    lng: 120.9950069
+  types: school
+  name: 清華大學化工館
+  address: No. 101, Section 2, Guangfu Road, East District
+- location:
+    lat: 24.7944328
+    lng: 120.9975797
+  types: school
+  name: 財團法人信誼基金會附設新竹市私立光明幼兒園
+  address: No. 186號, 光明新村, East District
+- location:
+    lat: 24.7887543
+    lng: 120.9921476
+  types: school
+  name: 加速器實驗室
+  address: 號, No. 101, Section 2, Guangfu Rd, East District
+- location:
+    lat: 24.7933749
+    lng: 120.992102
+  types: school
+  name: 國立清華大學天文社
+  address: 光復路二段101號, 蒙民偉樓R318室, 國立清華大學天文社, East District
+- location:
+    lat: 24.793381
+    lng: 120.9920776
+  types: school
+  name: 清華大學天文社
+  address: 光明里, 300, 台灣, 新竹市東區, 清華, 大學蒙, 民, 偉樓R318, East District
+- location:
+    lat: 24.7926305
+    lng: 120.9919055
+  types: school
+  name: 三區服務中心_國立清華大學
+  address: 東區光明里
+- location:
+    lat: 24.7942539
+    lng: 120.9926958
+  types: school
+  name: 清華大學學習科學研究所
+  address: 新竹, East District
+- location:
+    lat: 24.794472
+    lng: 120.9932232
+  types: school
+  name: Language Center
+  address: 新竹, East District
+- location:
+    lat: 24.794404
+    lng: 120.9935957
+  types: school
+  name: Dormitory Hung National Tsing Hua University
+  address: Unnamed Road, 東區
+- location:
+    lat: 24.7947093
+    lng: 120.9937962
+  types: school
+  name: 清華園
+  address: No. 101號, Section 2, Guangfu Road
+- location:
+    lat: 24.791369
+    lng: 120.99393
+  types: school
+  name: 誠齋
+  address: 東區光明里
+- location:
+    lat: 24.7912026
+    lng: 120.993063
+  types: school
+  name: 清华大学清斋
+  address: East District
+- location:
+    lat: 24.7949223
+    lng: 120.9934127
+  types: school
+  name: 國立清華大學第三綜合大樓
+  address: 東區光明里
+- location:
+    lat: 24.7946293
+    lng: 120.9944097
+  types: school
+  name: 清華大學合勤廳
+  address: 新竹, East District
+- location:
+    lat: 24.7949566
+    lng: 120.9922672
+  types: school
+  name: 清華大學資電館
+  address: East District
+- location:
+    lat: 24.7909393
+    lng: 120.9934358
+  types: school
+  name: 國立清華大學清齋
+  address: 新竹市光復路二段國立清華大學清齋
+- location:
+    lat: 24.7905129
+    lng: 120.9939407
+  types: school
+  name: 清大鴻齋
+  address: East District

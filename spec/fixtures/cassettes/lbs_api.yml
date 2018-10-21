@@ -1,0 +1,4422 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,1120.993091&radius=500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:46 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:46 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "INVALID_REQUEST"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:46 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:47 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:47 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "next_page_token" : "CqQCFwEAAJi3rQ4rRWdqnSdkswfG4F0eTqOauMIbcpHrEHog6A0MkFR19AMqb0zuqGOpA1lluYjzHOnZ1N4nO4dfSpomZOGFB1120_IX-ADNu_Rz-EejJdDA1gtPvYBvRWG-M6Q7fzlSDcwkQ-w4GOZkYZqaHkLFQMNOZm5fOgbig3H1asibayhOfXtTobmE3CuXqgpLXMyBZPz1ChW6lUx6qfNJhJj6TtSnYkOK5r2uMr3pkdTRyNcbx8VjGpYdTHGQ9zzPX0aKhdFC649GAjD5lpzXHG9JfaXJwA6DSh90YTgcf10GAHDGvfNyVBOxmupWxmqoIdnzlhbegtuITRBiNuNnfsHYsz-NIsrDXCppKqajc4JwE4XXA65lx4KUXC6vwDahBhIQZB8U07sggXnywgMpbyfUQBoUELHBexT0kpIvRUBFj_gs3lJSLYk",
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.8138287,
+                       "lng" : 120.9674798
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.8261386,
+                          "lng" : 121.0292242
+                       },
+                       "southwest" : {
+                          "lat" : 24.7408195,
+                          "lng" : 120.9041431
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+                 "id" : "bc6652f9b0c9cac64b95407cadd876e54ea79eb2",
+                 "name" : "Hsinchu",
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/111237776198584309589/photos\"\u003eRoy Ford\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAodvFuSp0TdpQ6TNL33sAl886KgzGsRjfhlkykOtxwuM73JTpCuHtm7tOvLRKepL7AuPDVwXOh2bPChPUq-4Rrm-5RV0Ts-VQBQO2hNlkbi_hi9YnyAZQy_TFPgLkB1NOEhD0UA5CVKvRjawywjzZIkMuGhTZOHT718gtivS99dRN4ves8C3RRg",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJEUtLGts1aDQRDDvTtbzcCdQ",
+                 "reference" : "ChIJEUtLGts1aDQRDDvTtbzcCdQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "colloquial_area", "locality", "political" ],
+                 "vicinity" : "Hsinchu"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7947253,
+                       "lng" : 120.9932316
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.80393149999999,
+                          "lng" : 121.0013386
+                       },
+                       "southwest" : {
+                          "lat" : 24.7802151,
+                          "lng" : 120.9842086
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "38bd09d6bf837ca5ee0da6b668932d3c8a00439b",
+                 "name" : "National Tsing Hua University",
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/102255274952733889164/photos\"\u003e文蕭\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAE99Ff_w0AVf1evqsjyEOuo8g8Y9pP2iA9zFxAPpRDzbS8Atzewok7dJi06S0ERtIoQuV45Gyx2rSgju1i8107_h1frgB6H_U3N2YoRHQLUWIY8EGfXkg5s9ody8RSvIwEhCKYsPQK35JHnrMMwG_v1ZRGhTZ9qwS8P3k-mK7loszV6vpNchkkQ",
+                       "width" : 4160
+                    }
+                 ],
+                 "place_id" : "ChIJB7ZNzXI2aDQREwR22ltdKxE",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+V7 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+V7"
+                 },
+                 "rating" : 4.6,
+                 "reference" : "ChIJB7ZNzXI2aDQREwR22ltdKxE",
+                 "scope" : "GOOGLE",
+                 "types" : [ "university", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.79403659999999,
+                       "lng" : 120.9930654
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7953855802915,
+                          "lng" : 120.9944143802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79268761970849,
+                          "lng" : 120.9917164197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+                 "id" : "3145ead1a269108e2e5ae5503b7484cbfd850a5d",
+                 "name" : "蘇格貓底二手書咖啡屋",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 720,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/108668419887640964330/photos\"\u003eYu-Ting Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAIsJwou8fKGLX0OiotbEIeN1_2Zt6m4qc4TLWZ8tvhyPQLVmA7UDt4BRwHrowztw4Aylb2GNdydEkbVUcsHFGu1l36rfbHVYjSPNyQSlPm3pwifWSDE5q07fBOjq-pxqbEhA-gcZrWOpVwdPzITz024DzGhQifm3ep7YCyXGG9Wpd5hATxgNvNA",
+                       "width" : 960
+                    }
+                 ],
+                 "place_id" : "ChIJw0pCKnM2aDQRf8TxwjfBuW0",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+J6 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+J6"
+                 },
+                 "rating" : 4.1,
+                 "reference" : "ChIJw0pCKnM2aDQRf8TxwjfBuW0",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7955259,
+                       "lng" : 120.9949543
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7968748802915,
+                          "lng" : 120.9963032802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7941769197085,
+                          "lng" : 120.9936053197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+                 "id" : "ee6d340ad4e722aa85f4be7356e36934340d8a33",
+                 "name" : "Smile Cafe 斯麥爾咖啡館",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115367342720777376975/photos\"\u003eSu Tian-Mu\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA-fGfyhy4XWROFGfVR-wB5ExwFbO-HfUdCP1kNtHUlyZ8b_rHUYPtNcFBgTGlg5uN_nW_FiRJcLZg803xhTQPxpyIn_pFtwURVil_SOCNn4wacFKNrLTN-1W2MoUDL0OgEhBVKBmAAgWczw_Yw6ILPW66GhSV18xtG8swwW59M1dffj8Mu0sRRw",
+                       "width" : 4000
+                    }
+                 ],
+                 "place_id" : "ChIJHQwC6ww2aDQRGbsBoY1puf4",
+                 "plus_code" : {
+                    "compound_code" : "QXWV+6X Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXWV+6X"
+                 },
+                 "rating" : 3.1,
+                 "reference" : "ChIJHQwC6ww2aDQRGbsBoY1puf4",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "101 光復路二段 光明里, 東區"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.792915,
+                       "lng" : 120.9930097
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7942639802915,
+                          "lng" : 120.9943586802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79156601970849,
+                          "lng" : 120.9916607197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "2f1bcf59f4cb6e3ffb8be3912ce36e55cd400c98",
+                 "name" : "7-Eleven",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2736,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/104657836088189275979/photos\"\u003e艾睿克\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA8A5yaZKUYcRDIUJI2YrF2ct-WJPH80GrcMkzPq-SU0txM6neN8DZprTGOTXB-x9hAWVw-8XeyZf_w0qB6b6aOhcH0-4DP_QJC7x3gEg8LS4_XA4DNrHkXmXnYokoywQfEhCQBDCYlsApfABa4RKaiUnLGhTmq2HVGc529JoOe7OlBAmtaOe5FA",
+                       "width" : 3648
+                    }
+                 ],
+                 "place_id" : "ChIJNav3KA02aDQRuuiWdgMQtoY",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+56 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+56"
+                 },
+                 "rating" : 4.7,
+                 "reference" : "ChIJNav3KA02aDQRuuiWdgMQtoY",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "convenience_store",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7942417,
+                       "lng" : 120.9922028
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79559068029151,
+                          "lng" : 120.9935517802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7928927197085,
+                          "lng" : 120.9908538197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/library-71.png",
+                 "id" : "e365ce45ef21d0be1d8ae2b75147feb12c16c10b",
+                 "name" : "Physics Research Center Library",
+                 "photos" : [
+                    {
+                       "height" : 3265,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115893276208697117523/photos\"\u003eFrank Lee\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAjkwIpF4wFwDeZDMRyxlUvP_ue8dTvlvQwRXGYDjHJOR0Q56kJxOD5OuWNByLyfKKohNb_7rCQ_YIfNjunoKdqiwbgmv_NVIu17zj_VwLITZUUfwNJoRJkGyGuM2bzmzbEhA1y0-9cIRzA5fvSH6zVvlHGhQTcxB4_wp0p9Ogr8-gRvLXoNMzCA",
+                       "width" : 4898
+                    }
+                 ],
+                 "place_id" : "ChIJNav3KA02aDQR2qtmvIJiZxQ",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+MV Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+MV"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJNav3KA02aDQR2qtmvIJiZxQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "library", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.795311,
+                       "lng" : 120.994712
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7966599802915,
+                          "lng" : 120.9960609802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7939620197085,
+                          "lng" : 120.9933630197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/library-71.png",
+                 "id" : "aee457203417323932838dd7be659619d3271ba1",
+                 "name" : "NTHU Library",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1365,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/116691276881464239217/photos\"\u003e國立清華大學圖書館\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAe5PPOMKrwhlTvV4qKJHW1OWKqBnRUY7aL3MVCaYOskTMISWiPxm-Wir1TaLPgRysENZIoa1cyE-hD4Ru7J3481623bg0NRRCUPnat2HKxWUhhXRZl8lPasUnAQwRa9tgEhCcOPe_Rnal8ozXZ5YOGVZyGhRoY5BbmMSsBgYClp6Vo2xJYsui5w",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJB7ZNzXI2aDQRMl4qaxD4YTs",
+                 "plus_code" : {
+                    "compound_code" : "QXWV+4V Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXWV+4V"
+                 },
+                 "rating" : 4.8,
+                 "reference" : "ChIJB7ZNzXI2aDQRMl4qaxD4YTs",
+                 "scope" : "GOOGLE",
+                 "types" : [ "library", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7944362,
+                       "lng" : 120.9936884
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7957851802915,
+                          "lng" : 120.9950373802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7930872197085,
+                          "lng" : 120.9923394197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "696ede9b73a51f13d9730f6ca09bc8437f741235",
+                 "name" : "國立清華大學藝術中心",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3072,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117238397067157416754/photos\"\u003eLee Chun Hao\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA8IMWUWOClMgL6RUgEMtY3y5WBzIdHoqIwTpgkYb5F8kZQzKdbDyQxshlwSurcWiuZhLebRSV476AiU55nM2AXted-arUjckKSBtQ1AuzDqylE3ul-oajkKCJmXISBTpfEhCQAvC92ONG42gWHxqg4-lfGhQwf71L41CPDOrVZQvB4S1IsgxKFA",
+                       "width" : 4608
+                    }
+                 ],
+                 "place_id" : "ChIJB7ZNzXI2aDQR20eOSkxdCVM",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+QF Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+QF"
+                 },
+                 "rating" : 4.3,
+                 "reference" : "ChIJB7ZNzXI2aDQR20eOSkxdCVM",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7922883,
+                       "lng" : 120.9902909
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936372802915,
+                          "lng" : 120.9916398802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79093931970849,
+                          "lng" : 120.9889419197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_recreational-71.png",
+                 "id" : "8e65764ad695f072e83e91efd9426e9747bfd15d",
+                 "name" : "Plum Garden",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1279,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/101617112959755866292/photos\"\u003e游筱嵩\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA8kQvnyXk68b-OGfn5SqCzzSCN1rHzJCvWusJnMgER1PaHrvXIZY8LTEzUPqenEUXr-HKYtWXmY6ruBKTQCJdLYO5YnZ8YOtciyFHbruuR5Hcs9yRHRakKsydjKrf9X2nEhBoh0-xfbshKXmuqA-xU6YtGhQtAVPKJBPPEVc48f1a4F3p88aQEA",
+                       "width" : 1799
+                    }
+                 ],
+                 "place_id" : "ChIJscWugwk2aDQRD-WhBZAnf4E",
+                 "plus_code" : {
+                    "compound_code" : "QXRR+W4 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRR+W4"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJscWugwk2aDQRD-WhBZAnf4E",
+                 "scope" : "GOOGLE",
+                 "types" : [ "park", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7962905,
+                       "lng" : 120.9943866
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7976394802915,
+                          "lng" : 120.9957355802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79494151970849,
+                          "lng" : 120.9930376197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "ae27e75ad4260b3a7b8af486eb0e5ee5ab26c68e",
+                 "name" : "Tsing Hua University Clinic",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2304,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103639702243250206687/photos\"\u003e柯淯碩\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAml2RqAOTjoKGAc2qHTc55W4ZU0EaJD6PqngzhHZSRtwtAzFqH_8ZnSfUs2hHhNDRo0LlHMVWPYRdxIqu1MaQxcquypNLyOCQ8jE4IChqrqOzB5tbhZ5Aw-0MJMSsqIjnEhDQ7iRH7UbUkiVncLw7nIxLGhSLRAe6fccTNF1ixdHJOPYjoAvEJQ",
+                       "width" : 4096
+                    }
+                 ],
+                 "place_id" : "ChIJ9ZK6LQ02aDQR8OCV9C2GiCY",
+                 "plus_code" : {
+                    "compound_code" : "QXWV+GQ Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXWV+GQ"
+                 },
+                 "rating" : 2.6,
+                 "reference" : "ChIJ9ZK6LQ02aDQR8OCV9C2GiCY",
+                 "scope" : "GOOGLE",
+                 "types" : [ "doctor", "health", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7929469,
+                       "lng" : 120.99333
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7942958802915,
+                          "lng" : 120.9946789802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7915979197085,
+                          "lng" : 120.9919810197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "97c2c4eee2494f1085399987941ca66614aaeae7",
+                 "name" : "YouBike 清華大學(小吃部)",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2368,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555/photos\"\u003eDavid Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAgIOfpcBeHdJFWhzGhLV_Bk8IphmeP_ISn8LRntSynLWrB5yGLN1l1PX3MW-WeAXdkL45dFdxXrpWZqIyB57ZKczdZaZQ1pMVWT9HDWDHROqZU0duis1Rm4G7tf43pjsIEhAWqcxFv1dSzgRxlOx2C74mGhTi3ZNdsaVbWub824oodwl5gH9jEA",
+                       "width" : 4208
+                    }
+                 ],
+                 "place_id" : "ChIJs24l9gs2aDQRoxQhpyP6WFY",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+58 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+58"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJs24l9gs2aDQRoxQhpyP6WFY",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "vicinity" : "300新竹市東區光復路二段101號(小吃部左側, 廣場, No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7935131,
+                       "lng" : 120.9920022
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7948620802915,
+                          "lng" : 120.9933511802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7921641197085,
+                          "lng" : 120.9906532197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+                 "id" : "253c65cb6b7342d9280c89f1905c8c84b6294e7c",
+                 "name" : "空堂咖啡",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3456,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/100806987176827152085/photos\"\u003e清大飲品社\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAADYtv1J59n_Q17M4RMUvmptQvBIBcVTq2SyYhUrV15D29nAC0EaMaf-BP7QQ0eO_GyzK2019DYK3F-DjfdwbsjzNk1ddtXnQt8SEEdy0OaCMtaP2ujARdIrBq7foxz3piEhC8TZKHmJqJp4AOXUUjmIdIGhSTNzjG-ky_flA0HogHyELLX5wgdA",
+                       "width" : 4608
+                    }
+                 ],
+                 "place_id" : "ChIJbaFm6gs2aDQRaxc63Pr3hGM",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+CR Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+CR"
+                 },
+                 "rating" : 4.3,
+                 "reference" : "ChIJbaFm6gs2aDQRaxc63Pr3hGM",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "號, No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7936169,
+                       "lng" : 120.9919454
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7949658802915,
+                          "lng" : 120.9932943802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7922679197085,
+                          "lng" : 120.9905964197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "b6b92dfa7f7566c9d4a9ca13a26464ab05d432bd",
+                 "name" : "清華大學慈青社 NTHU Tzu Ching Club",
+                 "photos" : [
+                    {
+                       "height" : 1000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/101678346233836958665/photos\"\u003e清華大學慈青社 NTHU Tzu Ching Club\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA2UIm76KZXq6btmm43Soy3ZegDugzOfUX568C1-KlTxx9-rTa0vWusAvQ-ZGn0-QdF5Nl_oGYoaDapweBHjna2eoO57uscmFDvlI52E2HtGV5qia0bINRpmG8-MB1b3pGEhABg_Cjlh8phUrIhWykRwFZGhQvBLVuWSQytOJ2QHHYjmPUzu1HMg",
+                       "width" : 1000
+                    }
+                 ],
+                 "place_id" : "ChIJP46b6gs2aDQRzCX9YqImAew",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+CQ Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+CQ"
+                 },
+                 "reference" : "ChIJP46b6gs2aDQRzCX9YqImAew",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "school", "establishment" ],
+                 "vicinity" : "學生活動中心 (蒙民偉樓) R309, ,新竹市光復路二段101號, 東區"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7940701,
+                       "lng" : 120.9924316
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7954190802915,
+                          "lng" : 120.9937805802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7927211197085,
+                          "lng" : 120.9910826197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "5cf79e7725aea810469d5ec77d9707577c445590",
+                 "name" : "Dept. of Physics, NTHU",
+                 "photos" : [
+                    {
+                       "height" : 2304,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/101617112959755866292/photos\"\u003e游筱嵩\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAASUImEIoHex74ZvpmslkoXYW9DR3pnRjol8W9U7Ek_ASNVEbaqNrOokblo-mQdqs6USLxsIGSa4rMG5inSaebRu3TE6afCRUGZrcFznY2OYwOdqSojGiU790pd7ArN4lCEhDyP75vjl2b9Mqwh5LH4PxyGhRjZtyXqQ4ldBQ8QlpwDhlD5dEqQA",
+                       "width" : 4096
+                    }
+                 ],
+                 "place_id" : "ChIJDT8FkQs2aDQRGCaemG7yHpU",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+JX Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+JX"
+                 },
+                 "rating" : 4.8,
+                 "reference" : "ChIJDT8FkQs2aDQRGCaemG7yHpU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "establishment" ],
+                 "vicinity" : "300 號, No. 101, Section 2, Guangfu Rd, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.792242,
+                       "lng" : 120.994139
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7935909802915,
+                          "lng" : 120.9954879802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79089301970849,
+                          "lng" : 120.9927900197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "954d7e1e033ffcc42ba0a0b9d6ccd76d983f9b2b",
+                 "name" : "清大水漫",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115298168751650306089/photos\"\u003eLeo Hu\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA6uWyxlDbPGMT28SsOPvW1GI9aw4IQFMoSXdWmWGpZ4fB9jGU26p4Xi0b-XYvurO35dpQNyRrGCnd3INbv7q3JEf5d30Bj0SjJB68LNmOUhTKY0ik7A-STdSSyCPAgz_NEhAN3tIRPTx8OFmGYOul9_tJGhRdDHmxxWAH-FMJ62EAXTaQPbs9eA",
+                       "width" : 4160
+                    }
+                 ],
+                 "place_id" : "ChIJmZinHAw2aDQRjXEjhHD3lYU",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VM Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VM"
+                 },
+                 "rating" : 4.8,
+                 "reference" : "ChIJmZinHAw2aDQRjXEjhHD3lYU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "book_store", "store", "point_of_interest", "establishment" ],
+                 "vicinity" : "光復 路2段101號清華大學 水木生活中心2樓 清大水漫, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.79219879999999,
+                       "lng" : 120.9943571
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7935477802915,
+                          "lng" : 120.9957060802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79084981970849,
+                          "lng" : 120.9930081197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "0f0d3c623da3fb4e406c52a7041594a18a2f4ff0",
+                 "name" : "Shuimu Restaurant",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117161015492918603087/photos\"\u003eJames Huang\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAtk98ozZrms1pNa9hmYgrwawzIsgtB1OsO5tTW4pCl_jgOK5L0iC2q1rO4YxVGIVx6obr4tt3AInEKLKqOaPM3P1LfnqV1nPQQACfNNQmpaEPNCAV65C7vN7wFjUTuxNIEhAaaVQywBbjN4xHVgEG9ELEGhR3z5_9ACJHUIiPLB34ILD_nJL5UA",
+                       "width" : 4000
+                    }
+                 ],
+                 "place_id" : "ChIJWdjyGww2aDQRNevyzv4kuXg",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VP Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VP"
+                 },
+                 "rating" : 3.6,
+                 "reference" : "ChIJWdjyGww2aDQRNevyzv4kuXg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.794481,
+                       "lng" : 120.993231
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7958299802915,
+                          "lng" : 120.9945799802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79313201970849,
+                          "lng" : 120.9918820197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "489db60c6517ef8ac21342b6698052c72b0c0759",
+                 "name" : "清華大學材料科技館",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJ7UjbgAs2aDQRs6MVsyUogzg",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+Q7 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+Q7"
+                 },
+                 "reference" : "ChIJ7UjbgAs2aDQRs6MVsyUogzg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "材料科技館, 新竹市東區光復路二段101號, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7946262,
+                       "lng" : 120.9932028
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7962427302915,
+                          "lng" : 120.9947150802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7935447697085,
+                          "lng" : 120.9920171197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "5a944467c367c454bafa9a58d4c83579a07443f6",
+                 "name" : "清華大學普物實驗室",
+                 "photos" : [
+                    {
+                       "height" : 1706,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112139353272936387906/photos\"\u003eTram Chen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAKsXfN7tWnvFgo32JxzkIOMZveIlDfSzvHHw8eFcVWWOII9ecnYdmGXggeZQ_59La0rDALGoPYgVNSiG6tRMAFYD_Cpy_mfik-hqCHohK4wyorApmn8lVZhVxToX22BjUEhBwr8yqrSOd8au4enJMr_k6GhS54kBHT9wvJ6fM_Q-1DZpuwG5zEA",
+                       "width" : 960
+                    }
+                 ],
+                 "place_id" : "ChIJbbJTgAs2aDQRficmpGFpCeo",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+V7 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+V7"
+                 },
+                 "rating" : 4.7,
+                 "reference" : "ChIJbbJTgAs2aDQRficmpGFpCeo",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "號, No. 124, 光復路二段155巷, 東區"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.792293,
+                       "lng" : 120.994924
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936419802915,
+                          "lng" : 120.9962729802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79094401970849,
+                          "lng" : 120.9935750197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "7fbce3c24a81fe1912d5e571fbee085ead6447ce",
+                 "name" : "漢堡人速食餐飲",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3264,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/100016895778984807308/photos\"\u003eLu Shin-Hung\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAu3hdXaqTMQyRVZT4bpn-ehfLggzV3WK83G2jG6fBsfDbjbfAhFP67xG7jnfR_lIOWoziCe_e3NNrfQWfRvZD7YNAxsNO-peTepUy7WI1ATrG43WO7zBtKneaIXjkISDfEhDvAiPCurUIWgbMoSiYaw-1GhQPX4LmayJp6BJ_DFZgpoMAJyKfoQ",
+                       "width" : 2448
+                    }
+                 ],
+                 "place_id" : "ChIJZZnY0nQ2aDQRNlyaKgn__TU",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+WX Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+WX"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJZZnY0nQ2aDQRNlyaKgn__TU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.791036,
+                       "lng" : 120.996987
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.8011653,
+                          "lng" : 121.0129944
+                       },
+                       "southwest" : {
+                          "lat" : 24.7809059,
+                          "lng" : 120.9809796
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+                 "id" : "9a05e97fd0d9bfba3cc1eba6e63b1b018810baa0",
+                 "name" : "光明新村",
+                 "place_id" : "ChIJaVR6dw42aDQR7Mn96Qyp2jI",
+                 "reference" : "ChIJaVR6dw42aDQR7Mn96Qyp2jI",
+                 "scope" : "GOOGLE",
+                 "types" : [ "neighborhood", "political" ]
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:47 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=airport
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:47 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:47 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:47 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=cafe
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:47 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:47 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.79403659999999,
+                       "lng" : 120.9930654
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7953855802915,
+                          "lng" : 120.9944143802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79268761970849,
+                          "lng" : 120.9917164197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+                 "id" : "3145ead1a269108e2e5ae5503b7484cbfd850a5d",
+                 "name" : "蘇格貓底二手書咖啡屋",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 720,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/108668419887640964330/photos\"\u003eYu-Ting Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAaVuQcZZBoFwiZqOcZWsptpceToSHR_DHvxPadklnMuP0-jYz6mcPTKoAd5OXT7Rq0ZoU9sGfxcgm1gt2INKSQ1AJ-5gELQ3-QL-qL8zCfTVA2zhvaLkgitKabqK9NuGvEhCBVk-FIa1m179gKQzSLCuQGhSPXi7TwVQiewVBWfGindB5YBqVrw",
+                       "width" : 960
+                    }
+                 ],
+                 "place_id" : "ChIJw0pCKnM2aDQRf8TxwjfBuW0",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+J6 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+J6"
+                 },
+                 "rating" : 4.1,
+                 "reference" : "ChIJw0pCKnM2aDQRf8TxwjfBuW0",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7955259,
+                       "lng" : 120.9949543
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7968748802915,
+                          "lng" : 120.9963032802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7941769197085,
+                          "lng" : 120.9936053197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+                 "id" : "ee6d340ad4e722aa85f4be7356e36934340d8a33",
+                 "name" : "Smile Cafe 斯麥爾咖啡館",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115367342720777376975/photos\"\u003eSu Tian-Mu\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAqgaXIvyVeE5p5R9tD21Jr2j-jXC5NCY2Ku_IO6HfLTnj_3Zxjo_zBSLcPKZ88vhcDRkKBcLty1uu33rPPANGguS9cLZK9ioz4jdimodXwBNCNV8qhrGASlyNuCUWKuuVEhCocDYU2GKIZQ1q8EgBJZZDGhT5nPGOw1ZpFJ0AnHWVjmOW02yEyQ",
+                       "width" : 4000
+                    }
+                 ],
+                 "place_id" : "ChIJHQwC6ww2aDQRGbsBoY1puf4",
+                 "plus_code" : {
+                    "compound_code" : "QXWV+6X Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXWV+6X"
+                 },
+                 "rating" : 3.1,
+                 "reference" : "ChIJHQwC6ww2aDQRGbsBoY1puf4",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "101 光復路二段 光明里, 東區"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7935131,
+                       "lng" : 120.9920022
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7948620802915,
+                          "lng" : 120.9933511802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7921641197085,
+                          "lng" : 120.9906532197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+                 "id" : "253c65cb6b7342d9280c89f1905c8c84b6294e7c",
+                 "name" : "空堂咖啡",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3456,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/100806987176827152085/photos\"\u003e清大飲品社\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAABttsbW40uLM4UR9N43hbQdxlWNFLrsgOIGxW9VKvJ_oFQmIPmP6rE4fIgTILKRUrrlmON3tqYdd6Ih7tpsqIqdUydgnF2EdiPmkZYfV9ZVrkkCyi7CkTBksVDDGQS43GEhBspQPHLfdg__wexzkRPoQbGhThRNJh53m3p9PfUjKZ1vHpKlkvXw",
+                       "width" : 4608
+                    }
+                 ],
+                 "place_id" : "ChIJbaFm6gs2aDQRaxc63Pr3hGM",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+CR Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+CR"
+                 },
+                 "rating" : 4.3,
+                 "reference" : "ChIJbaFm6gs2aDQRaxc63Pr3hGM",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "號, No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.792323,
+                       "lng" : 120.9950025
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936719802915,
+                          "lng" : 120.9963514802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7909740197085,
+                          "lng" : 120.9936535197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+                 "id" : "764338e1f6dce5c16d006b904384e3a810c1a7ef",
+                 "name" : "水木咖啡 x 小客廳",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117540863522926564722/photos\"\u003eHan Jason\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA1MPPPkInI4rerxLUepVa4GVgq4MkzZeHkaMjxnz7e129LJTlZ1cvGNuSLuSX6qMUNDIQQhmBFTX0xKWpIHeVthxgrvD0ga_eSobFVV7fTjuqlKiC0_RBJFgiiPm7Yjv9EhCHqdwfIvrSlkUSt-52847uGhSd_RmKMoKQdoH7XM8QWt5gpdRcTQ",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJBV0tIww2aDQRGxJsThdt9-s",
+                 "plus_code" : {
+                    "compound_code" : "QXRW+W2 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRW+W2"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJBV0tIww2aDQRGxJsThdt9-s",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "store", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "清華 大學 風雲 樓 一 樓 水木 書 苑 內, No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7923912,
+                       "lng" : 120.9940296
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7937401802915,
+                          "lng" : 120.9953785802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79104221970849,
+                          "lng" : 120.9926806197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+                 "id" : "9caf013cafd5ed6cade8e67c28b8c0fc5c87ea4c",
+                 "name" : "Panda Cafe'",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1530,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112886281922396200921/photos\"\u003e陳俊誼\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAH55nZrRc1dcHnsM8EVfchPJR03o9-LKAfHN_bRsBGd8fhDgtxezBFEdvGsvezKcg96lP8JJa9IDdXJvehrCuvY0o88WN8L0FT4A3uVXOMCliAtrTQNyZkKfG561SgDivEhBFbrLcWvQmRPATSbjPQHq5GhRh6KcTOj4in3VhaMzTdd4_fW5APA",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJB1wzGww2aDQR_n8tN4jQ2hU",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+XJ Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+XJ"
+                 },
+                 "rating" : 4.1,
+                 "reference" : "ChIJB1wzGww2aDQR_n8tN4jQ2hU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "新竹市東區光復路二段101號"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.79073139999999,
+                       "lng" : 120.9913514
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7920803802915,
+                          "lng" : 120.9927003802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.78938241970849,
+                          "lng" : 120.9900024197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+                 "id" : "5c29b69fe55f908d636e32c28ab63b1864a6b2ea",
+                 "name" : "創意cafe",
+                 "photos" : [
+                    {
+                       "height" : 3264,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115598344951131571411/photos\"\u003e林廷翰\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA5DxUIgC1BjAPElN_2yT4yJFBNbVjOazQICC6pJh96baVHks8B8qcEv7ln2WNHRRxN-6EEcD_b9r83D8r9IAIPlS5flp4ktzK0hQcyx_agiL79Q8UIalzGeprWvk_Dc8OEhBZ05_gXAxqUV-p9gGJR-hxGhSOTwOO1s7K8Q2SfRX2rRZlA77VZg",
+                       "width" : 2448
+                    }
+                 ],
+                 "place_id" : "ChIJVVWlEQk2aDQR7mz3tUaZP64",
+                 "plus_code" : {
+                    "compound_code" : "QXRR+7G Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRR+7G"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJVVWlEQk2aDQR7mz3tUaZP64",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "Tsen-Min Lee Building, 300新竹市東區清華大學, 李存敏館, East District"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:47 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=city_hall
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:47 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:47 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:47 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=department_store
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:48 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:48 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:48 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=gas_station
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:48 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:48 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:48 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=hospital
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:48 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:48 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:48 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=library
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:48 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:48 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7942417,
+                       "lng" : 120.9922028
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79559068029151,
+                          "lng" : 120.9935517802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7928927197085,
+                          "lng" : 120.9908538197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/library-71.png",
+                 "id" : "e365ce45ef21d0be1d8ae2b75147feb12c16c10b",
+                 "name" : "Physics Research Center Library",
+                 "photos" : [
+                    {
+                       "height" : 3265,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115893276208697117523/photos\"\u003eFrank Lee\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAsY5QqF1lLV8N0vDfvJtHmFtbI9S-3o-L6QuC5feuFa7raJ7m6qO5UOhyJ7lzq9mapuAMrbjWep6zi87vX49qObHwUhk0CzbZQ4x4JRdmSkeIlpio2eSP3964qSXkupGNEhB_IvvL89SwLpmj-m4xml7SGhSCIIQaLAhgBElqno8mnzFZE0jW1w",
+                       "width" : 4898
+                    }
+                 ],
+                 "place_id" : "ChIJNav3KA02aDQR2qtmvIJiZxQ",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+MV Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+MV"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJNav3KA02aDQR2qtmvIJiZxQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "library", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.795311,
+                       "lng" : 120.994712
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7966599802915,
+                          "lng" : 120.9960609802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7939620197085,
+                          "lng" : 120.9933630197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/library-71.png",
+                 "id" : "aee457203417323932838dd7be659619d3271ba1",
+                 "name" : "NTHU Library",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1365,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/116691276881464239217/photos\"\u003e國立清華大學圖書館\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAYPcsqoR9AsvO7wAC6BvM39DzHLsucu4lmeRkyOUSoCW1IJ9OTtpwh5NQDIEDKX9uHGcHJuYL5veumZos6zlAU9X6mPmwpuk6qSAGFHrkPuLk-FrXpswwPZMbgJhRj9nzEhB6Lo9VoZ3Bi1J-R7_HpX40GhTQhDuWoAgTwIgyq-zP3wu3nF9Uyw",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJB7ZNzXI2aDQRMl4qaxD4YTs",
+                 "plus_code" : {
+                    "compound_code" : "QXWV+4V Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXWV+4V"
+                 },
+                 "rating" : 4.8,
+                 "reference" : "ChIJB7ZNzXI2aDQRMl4qaxD4YTs",
+                 "scope" : "GOOGLE",
+                 "types" : [ "library", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7902748,
+                       "lng" : 120.9893206
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7916237802915,
+                          "lng" : 120.9906695802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7889258197085,
+                          "lng" : 120.9879716197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/library-71.png",
+                 "id" : "756d14e121f0ae75f65689b55b7b60842cb06060",
+                 "name" : "NTHU Library Humanities and Social Sciences Branch",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2620,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/108547926808330467073/photos\"\u003eRomeo Lou\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA80t6qttHeQB0y94TSxsK77c2zsF3XQ-dl824MpcAGoA1bW3LLl59Mzm6T7NvfpM7cQkFQkLb5rrPgnM_VuXuC0nSxEW-SC3ZD9BIE4dikCsgH3cRSbc2hdsYc1PAyO8EEhCeP0bzdssyRPU8-uu1yDo4GhQlm7JUrvzFoG03o5un6IvSTWss7Q",
+                       "width" : 4656
+                    }
+                 ],
+                 "place_id" : "ChIJ7cc5Swg2aDQR5Rs_QSjjud8",
+                 "plus_code" : {
+                    "compound_code" : "QXRQ+4P Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRQ+4P"
+                 },
+                 "rating" : 4.6,
+                 "reference" : "ChIJ7cc5Swg2aDQR5Rs_QSjjud8",
+                 "scope" : "GOOGLE",
+                 "types" : [ "library", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7950121,
+                       "lng" : 120.9935182
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7964356802915,
+                          "lng" : 120.9948446302915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7937377197085,
+                          "lng" : 120.9921466697085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/library-71.png",
+                 "id" : "6083dbf50ac6732609c8c58b23ab8960deca4122",
+                 "name" : "國立清華大學數學圖書分館",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105401684940184219006/photos\"\u003e邱子軒\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAj9STwPV2aSPpS596I14XCgey5uOYScQkFmpLqQiDW1nGjzQijKqXONIhlRbis6B_8BU4kTHmaPlUiAGN8_Px9GB8tuGGVzFxHssvNp6ghYXd55J1gLWnUAlHPCX5IVpmEhAfF5dXuxtwj9dC5bYwEMgEGhR7RkgKD25p3ha1OsIwgz6T0HCw0g",
+                       "width" : 4160
+                    }
+                 ],
+                 "place_id" : "ChIJBeGGgQw2aDQRbplXJ_lpUBY",
+                 "plus_code" : {
+                    "compound_code" : "QXWV+2C Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXWV+2C"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJBeGGgQw2aDQRbplXJ_lpUBY",
+                 "scope" : "GOOGLE",
+                 "types" : [ "library", "point_of_interest", "establishment" ],
+                 "vicinity" : "155 巷 號, No. 132, Section 2, Guangfu Road, East District"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:48 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=police
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:49 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:49 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7915962,
+                       "lng" : 120.9918017
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7929451802915,
+                          "lng" : 120.9931506802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7902472197085,
+                          "lng" : 120.9904527197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+                 "id" : "60a5940d6260e818a472ac95df569b6784a73556",
+                 "name" : "國立清華大學駐警隊",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "place_id" : "ChIJx00kaAk2aDQRIJashFJ6Z9k",
+                 "plus_code" : {
+                    "compound_code" : "QXRR+JP Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRR+JP"
+                 },
+                 "rating" : 3,
+                 "reference" : "ChIJx00kaAk2aDQRIJashFJ6Z9k",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "local_government_office",
+                    "police",
+                    "point_of_interest",
+                    "establishment"
+                 ],
+                 "vicinity" : "No. 101, 光復路2段, East District"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:49 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=local_government_office
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:49 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:49 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7915962,
+                       "lng" : 120.9918017
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7929451802915,
+                          "lng" : 120.9931506802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7902472197085,
+                          "lng" : 120.9904527197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/police-71.png",
+                 "id" : "60a5940d6260e818a472ac95df569b6784a73556",
+                 "name" : "國立清華大學駐警隊",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "place_id" : "ChIJx00kaAk2aDQRIJashFJ6Z9k",
+                 "plus_code" : {
+                    "compound_code" : "QXRR+JP Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRR+JP"
+                 },
+                 "rating" : 3,
+                 "reference" : "ChIJx00kaAk2aDQRIJashFJ6Z9k",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "local_government_office",
+                    "police",
+                    "point_of_interest",
+                    "establishment"
+                 ],
+                 "vicinity" : "No. 101, 光復路2段, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7952509,
+                       "lng" : 120.9965788
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79659988029151,
+                          "lng" : 120.9979277802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7939019197085,
+                          "lng" : 120.9952298197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/civic_building-71.png",
+                 "id" : "d3659b0c153e885acc813a137ff6b7f0bc488632",
+                 "name" : "合謙化學股份有限公司",
+                 "place_id" : "ChIJWbFLHw02aDQRlQVT067feaA",
+                 "plus_code" : {
+                    "compound_code" : "QXWW+4J Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXWW+4J"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJWbFLHw02aDQRlQVT067feaA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "local_government_office", "point_of_interest", "establishment" ],
+                 "vicinity" : "東區光明里"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:49 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=restaurant
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:49 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:49 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "next_page_token" : "CrQCIwEAAMqlT35GmDSN8DOywHUTqdW3F1WlGardbH9hUh67nVhM7FcJK9p6WlXMuKvAx9l-4pty8_jTXERwBj5VaUqo9fUX7_YS2BuYlatpya8IBDdS1UdEQnjAuD1OBlwOnWKwmFbAyV393BtO0CM4GI1iVTSTWd2srYTJGyhKy2se6G8xZPxNOZntnQJY_6OPGP5MYwa9H1jsPsoS5Z9i_3xOX7ZeF8BmwQL5Z4U6MwUGIK6gROdVBvEIvCjrR45UcsEpIYtUZ9pRUT7AfsdE5LUp1OQoCxxMbxy7FYQA1CEZxIQcLN7kRaKWRDt0u3xSE2b69u3w2nzDiZXGvnAbwyRlDbzj41YGjlbPTSXbVDz0pgB6-SU8p5jbZcC5WTdPTu_iYbfHDpq1xh5VeogVPVfsjPESEAbCOwBDPntNjEkDiu1yk8YaFHJY4633sJBnDWC1UJLEurvkPjiS",
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.79219879999999,
+                       "lng" : 120.9943571
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7935477802915,
+                          "lng" : 120.9957060802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79084981970849,
+                          "lng" : 120.9930081197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "0f0d3c623da3fb4e406c52a7041594a18a2f4ff0",
+                 "name" : "Shuimu Restaurant",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117161015492918603087/photos\"\u003eJames Huang\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA0PHLmT6lIO-4mSffrLjC8RyX6cosmI6MrYiDqmbtdrhNoXHiWJm4mASMQp5KacZFBere0VxBEz0Fw62IY5iWrxvbOG95-5fKIJ9m14rZXGlPElD2TDU5UcVSbdSZTcieEhCYdDLP93pJsAUlOX14jI0uGhTdGHC1ia78L1HNF7rKDiC-i9bj9g",
+                       "width" : 4000
+                    }
+                 ],
+                 "place_id" : "ChIJWdjyGww2aDQRNevyzv4kuXg",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VP Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VP"
+                 },
+                 "rating" : 3.6,
+                 "reference" : "ChIJWdjyGww2aDQRNevyzv4kuXg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.792293,
+                       "lng" : 120.994924
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936419802915,
+                          "lng" : 120.9962729802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79094401970849,
+                          "lng" : 120.9935750197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "7fbce3c24a81fe1912d5e571fbee085ead6447ce",
+                 "name" : "漢堡人速食餐飲",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3264,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/100016895778984807308/photos\"\u003eLu Shin-Hung\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAd4DByCNnwXKr9-59xmL7SjuL7FjVeiUOuhHsWpe799q-7L5uFR5K77bH91fbF6KRQJwBJooIOiQn8XkG3fp8pdsrwwYe0wfWIvFZNy_yac5yLdTdk32m_BWHSHhYp4cgEhBj9XJVcMKM8TTir9ttUjIQGhT5ouFJ5oW6vQbA7kgTr2O5Qh17Gw",
+                       "width" : 2448
+                    }
+                 ],
+                 "place_id" : "ChIJZZnY0nQ2aDQRNlyaKgn__TU",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+WX Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+WX"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJZZnY0nQ2aDQRNlyaKgn__TU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7930185,
+                       "lng" : 120.9929926
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7943674802915,
+                          "lng" : 120.9943415802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7916695197085,
+                          "lng" : 120.9916436197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "56b41c20c01c0728c43116f9e0531cc3cb3d120f",
+                 "name" : "霏霏鍋燒麵",
+                 "photos" : [
+                    {
+                       "height" : 3706,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555/photos\"\u003eDavid Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAKboAqojoHHHEtIkX5VqWQ_aIi6z6PIxHnvrWqNlnTcxHoAYvMZ706Uu1Rwv-nNbCPmnyQGXX8L2VbQBLbVig09eH4RXD4294zNY0JjBgjPGbAmZh8xqUNHzE6F8Mj02LEhC7tS2d_VHcImvNmPcOSkxPGhS5fVQCPwm5oD0-i3Xm-cNMIbUH5A",
+                       "width" : 2368
+                    }
+                 ],
+                 "place_id" : "ChIJQSh3Yjc3aDQRgrmE2J0I-bc",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+65 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+65"
+                 },
+                 "rating" : 2,
+                 "reference" : "ChIJQSh3Yjc3aDQRgrmE2J0I-bc",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7929817,
+                       "lng" : 120.993008
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7943306802915,
+                          "lng" : 120.9943569802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79163271970849,
+                          "lng" : 120.9916590197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "fa830ab4fcfc790a77ee8418a0c397a0fbac9514",
+                 "name" : "海盜滷味",
+                 "photos" : [
+                    {
+                       "height" : 4208,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555/photos\"\u003eDavid Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAjxN6QcMx-l-DFaaGXn5qGC1kMKSW8_Imo3HelMGm72Qw82no-0exuWUHq-UwDJyXakwDe87F95ePEpp-rVc_aKIv1RDJ__RlA-h4KP0iF7OP-e5upJaKVx9CuxgTI3ySEhCH48ARGeUmihX8YaKuJD-kGhQleeYcSxuBjpdmHjxuehF1ojSPXA",
+                       "width" : 2368
+                    }
+                 ],
+                 "place_id" : "ChIJaVcLjcU3aDQRfTrYlK7F6tA",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+56 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+56"
+                 },
+                 "reference" : "ChIJaVcLjcU3aDQRfTrYlK7F6tA",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7930167,
+                       "lng" : 120.9929822
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79436568029151,
+                          "lng" : 120.9943311802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7916677197085,
+                          "lng" : 120.9916332197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "c68eb4f6e63e39eb9455157ad4308f38418d6ee8",
+                 "name" : "大洪 大食管",
+                 "photos" : [
+                    {
+                       "height" : 2268,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555/photos\"\u003eDavid Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAR-tEkOnsOzmKeXYHx18UY75PaRjPa0-qW_JFfY0ve3qD1ZzW7RgI_mgIoopmC3J2Qv5eRmufDGZFL2JmJEmlzf1BTPHQJKK4Jj065kZYLAuAkm7DB1poGVKziCNoy8FoEhBfz3lVg7uR7oOCCfaMjXAYGhRiCQP2f-tw6cVVvWKOMUpRo_ffHg",
+                       "width" : 3901
+                    }
+                 ],
+                 "place_id" : "ChIJGzcNKJI3aDQRF8KpblsRYi4",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+65 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+65"
+                 },
+                 "rating" : 2,
+                 "reference" : "ChIJGzcNKJI3aDQRF8KpblsRYi4",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7930742,
+                       "lng" : 120.9929761
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79442318029151,
+                          "lng" : 120.9943250802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7917252197085,
+                          "lng" : 120.9916271197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "af74262fb3b618d68ced604f093ba865f7dd83ee",
+                 "name" : "原牛",
+                 "photos" : [
+                    {
+                       "height" : 3504,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103723358497211855597/photos\"\u003eChristopher Chan\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAuyh_EUVCrP1rZ0djwCKaC863NXzFEhnZ916EmjMAJ_QMP3IP9Cebws0AGvm4AfO7Jb_XE8dDPftafPnlCcLmCzTYxATTfVxdYeNgyJ6u5zXb7WrerlVgWB_xvGu44oz9EhAtmINbWdYnZiABNSb8IVviGhRgMN2fZlKbEuk-u6S5GvmygR_n6g",
+                       "width" : 4672
+                    }
+                 ],
+                 "place_id" : "ChIJv2_Lqqc3aDQRWgX7E8KRe7w",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+65 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+65"
+                 },
+                 "rating" : 3.5,
+                 "reference" : "ChIJv2_Lqqc3aDQRWgX7E8KRe7w",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7931162,
+                       "lng" : 120.9929731
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7944651802915,
+                          "lng" : 120.9943220802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7917672197085,
+                          "lng" : 120.9916241197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "35cffd945bf7fb31f2dadf237ef18da52f92173b",
+                 "name" : "李記小館",
+                 "photos" : [
+                    {
+                       "height" : 4208,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555/photos\"\u003eDavid Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAfHyshGMNauOAO2FB6RPuYEhr5xGNh5g_L24k39QyPKpHWKnnH2fEMmDJT0bdx3s826iv7xhaEaH7ve6rYTkeJvrnEaSBxgeA7vMYLJqQPF89GVXFEYAOJ76w4wMw1QaPEhCH4c1pfzNN9bRK6zvvsnlQGhQWHXBrwobQl4x5oKFd0Iya4ihlxg",
+                       "width" : 2368
+                    }
+                 ],
+                 "place_id" : "ChIJ2XpuQOU3aDQR7q2UBH-xb6Q",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+65 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+65"
+                 },
+                 "rating" : 3,
+                 "reference" : "ChIJ2XpuQOU3aDQR7q2UBH-xb6Q",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7929156,
+                       "lng" : 120.9930915
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7942645802915,
+                          "lng" : 120.9944404802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7915666197085,
+                          "lng" : 120.9917425197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "4aa8227d87cb8f4acb29e4852c3928ac996a5a26",
+                 "name" : "McDonald's",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/107451851447310890167/photos\"\u003e張維中\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAFViUm7QZKmkeUlBGXHB34M16ZT3-DpQoJRw2kDmn1LxM0uyjQHsmvGVRS_G_oTGp2aMr-M37ud4QPwQ0AuUbgrAv7tHooer1ZDRtve99iKgogA87MFgQDCweAeyQYaLbEhCPP3AOdPLZpCm9Hb5ReD86GhR3B4ic_FGlVWHazTz-3fPYf5gklQ",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJZZnY0nQ2aDQRaGoa5ALVp4g",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+56 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+56"
+                 },
+                 "price_level" : 1,
+                 "rating" : 3.9,
+                 "reference" : "ChIJZZnY0nQ2aDQRaGoa5ALVp4g",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7931494,
+                       "lng" : 120.9929691
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7944983802915,
+                          "lng" : 120.9943180802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79180041970849,
+                          "lng" : 120.9916201197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "5e1bcf4b139869720271908e574673d8696a0495",
+                 "name" : "比司多",
+                 "photos" : [
+                    {
+                       "height" : 3264,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115598344951131571411/photos\"\u003e林廷翰\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAcZ8GRzgUXCg_R-TuoAChq-00OTviUqCD6R1eBB-yjloGlrlizipsOfFnV82m5cx34JfAKvL_aLSxWaiAa3_2WukT-fpGbpTnPxIOJ1Dh6x92dqSaEqK7wZmUnlRqkiINEhAp_8yrPUHq_bpBtB3tLPAfGhQP8w8ODUEPDWuS4Q3nDHNMHjvbnw",
+                       "width" : 2448
+                    }
+                 ],
+                 "place_id" : "ChIJNeFX8Qs2aDQRedcRp23j6-w",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+75 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+75"
+                 },
+                 "rating" : 3.9,
+                 "reference" : "ChIJNeFX8Qs2aDQRedcRp23j6-w",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "新竹, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7922801,
+                       "lng" : 120.9940369
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936290802915,
+                          "lng" : 120.9953858802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7909311197085,
+                          "lng" : 120.9926879197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "97b53e0bfe324d8abcf262098aef434740cd1312",
+                 "name" : "弘謙食堂",
+                 "photos" : [
+                    {
+                       "height" : 3504,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/103723358497211855597/photos\"\u003eChristopher Chan\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA_pmHKubROwpia0qunJPbJR27hMSY-Um6h6ezHY_t2c_CatA3g_LBWLJYGL-IHVttCERaS8kUIBPrK1cw77uFzF0g9Waxyo3tGne04tCfGpezRIe9QrORLuZvICgy7ipIEhBbS0DiaUlRTYioCHtBc9eWGhT01TGmHfYxDibTSsd7RqNALoDo2A",
+                       "width" : 4672
+                    }
+                 ],
+                 "place_id" : "ChIJjR73-Ts3aDQR_xiw54byiOY",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+WJ Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+WJ"
+                 },
+                 "reference" : "ChIJjR73-Ts3aDQR_xiw54byiOY",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7922521,
+                       "lng" : 120.9940715
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936010802915,
+                          "lng" : 120.9954204802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7909031197085,
+                          "lng" : 120.9927225197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "fb387801bdd3ba8ec0b995dc252bdedcfb841baa",
+                 "name" : "三顧茅廬",
+                 "place_id" : "ChIJnYG8grc3aDQRCCyjHEvWokw",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+WJ Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+WJ"
+                 },
+                 "reference" : "ChIJnYG8grc3aDQRCCyjHEvWokw",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7922658,
+                       "lng" : 120.9942579
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936147802915,
+                          "lng" : 120.9956068802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7909168197085,
+                          "lng" : 120.9929089197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "5b3d2e977ceef8b7b97b6a635f1acb86bc7f100a",
+                 "name" : "小木屋鬆餅新竹清大店",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1836,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/109113654891581506295/photos\"\u003e吳澍齊\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAKBlNQMdAo6MpOCrk2gGu-4oPqYxgFkMU0mwV-2Afzue1rHsWwQi5PiNGegQsDXNaNXsV6JtKy8iaHw_dBEc7BtNdOX4S49CI9mHqzpKzKqY_1442k40LDAlwiuK6malsEhB0StuXE35caIDV-jY7TKBCGhRg5WjA9Xsf_lA7UfQ0YCDurkReNg",
+                       "width" : 3264
+                    }
+                 ],
+                 "place_id" : "ChIJg02PWBo3aDQR8IjjYjL6-z4",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+WP Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+WP"
+                 },
+                 "rating" : 4.2,
+                 "reference" : "ChIJg02PWBo3aDQR8IjjYjL6-z4",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7920895,
+                       "lng" : 120.9943099
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7934384802915,
+                          "lng" : 120.9956588802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7907405197085,
+                          "lng" : 120.9929609197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "9c284f876b5bbff68d65bfd721c70f797a8f6516",
+                 "name" : "金展自助餐",
+                 "photos" : [
+                    {
+                       "height" : 2368,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555/photos\"\u003eDavid Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAHwrQEeK2LFinXxSdpuuz8xaKSmDMmj-u16w0bL9rixK5AH9fqy5wEfngyASzSQDHHoKnPom2zYJSwOT1gesprVP_H-TBnqtA5_eCRkOyy82SsXiuKBSBcZTVXklL_JamEhAFCFZv0xeuQMYdSseaMZdJGhSkzyNEoa5Da8w9SojSjpGJ9QBtTg",
+                       "width" : 4208
+                    }
+                 ],
+                 "place_id" : "ChIJC8pCHAw2aDQRL9gPPJ0nygw",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+RP Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+RP"
+                 },
+                 "rating" : 3.6,
+                 "reference" : "ChIJC8pCHAw2aDQRL9gPPJ0nygw",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "光明里, 300, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7921611,
+                       "lng" : 120.9943742
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7935100802915,
+                          "lng" : 120.9957231802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79081211970849,
+                          "lng" : 120.9930252197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "d6079fa09f6db8825be501a92419e9b81c46f0c6",
+                 "name" : "和風風味屋（清大）",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105427051795863614031/photos\"\u003edavidhcefx\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA6GDzBXq3G3tk2Ilh2HkFJGJTZ_Tp4I24USz1wSBYpGE6_hEXK62KnfsAPONGlcA8HY9ktjDAgBkMzftvuZLYs8LRSt9FYJBczoMOYJ1VRzuvsHrdqTLX0WEx-o-ldhpyEhBfQJ0opupPtUKZ-ip9EPk-GhTtryqiKvN2QlursNtLs__YOVUDiA",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJsfPaV8U3aDQReP54uFI7Tlk",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VP Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VP"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJsfPaV8U3aDQReP54uFI7Tlk",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.792067,
+                       "lng" : 120.9944155
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7934159802915,
+                          "lng" : 120.9957644802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7907180197085,
+                          "lng" : 120.9930665197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "394d13a136e9f5d97942a81b32e8733781752506",
+                 "name" : "酷雞KUGI",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2747,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105427051795863614031/photos\"\u003edavidhcefx\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAeJ3te0EQ1v95F86Fe1LpnxN-f6nR-EtISl2FYgk-RI6Zi2XDVir04vQVO1UzaC8ieVghMFB0rd7b7_tGuJqvx3JkHy6FwzuZPv98x8GyHPWcUqbZAGD1lqPNDtb2QgNvEhAbeHIXPUXE5Bxki4fLvt1oGhR11nPSVXJJMVvpI2muzjSfYmQ_VA",
+                       "width" : 3364
+                    }
+                 ],
+                 "place_id" : "ChIJPxkDf3k3aDQRgtkWajeze-k",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+RQ Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+RQ"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJPxkDf3k3aDQRgtkWajeze-k",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7921251,
+                       "lng" : 120.9944812
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7934740802915,
+                          "lng" : 120.9958301802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7907761197085,
+                          "lng" : 120.9931322197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "68691bf8ebaef867cd2d4f68515ae832ce0ffc69",
+                 "name" : "八方雲集",
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105427051795863614031/photos\"\u003edavidhcefx\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAk_OYDkgQzmj30Gj_Nu_3TZWGMkP7CAmQ0FkDztIAWkW3FpzqWRdupPBnj-3M96jHEHf4QiIInA51q9tef_r6jYTze73RG6J553aZX_aq6iqL7LGZ1IgZqy6gEtYtFwGlEhAWNkmjgttxM08hpGiArU9iGhQpRhgmCJvzdl2_iTFReuPJs8dGUQ",
+                       "width" : 3437
+                    }
+                 ],
+                 "place_id" : "ChIJlziN4NQ3aDQRLn40WWVdUcg",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VQ Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VQ"
+                 },
+                 "reference" : "ChIJlziN4NQ3aDQRLn40WWVdUcg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7922073,
+                       "lng" : 120.9947196
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7935562802915,
+                          "lng" : 120.9960685802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7908583197085,
+                          "lng" : 120.9933706197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "55362136161ec50174415e10193c4eeebcea8711",
+                 "name" : "金鴻快餐",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2532,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105427051795863614031/photos\"\u003edavidhcefx\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAl3JSNHxESZuOarNbBcB-vmkXutDxZ53sWFd1w0fogCyRcCx5rhw_uikj8_HOYvfarG9QjEWvLr-t6zpEqbzmFmR51VAJpzZuCrIizWDkZItJHrG6DhXZ4sNtAbLI-gUNEhBznFn7bG-OE_W-O5WlzbVrGhQgsBMkcvTk9E5EEvq5h60PL722hA",
+                       "width" : 3378
+                    }
+                 ],
+                 "place_id" : "ChIJsRNYRPs3aDQRX722OaseZ20",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VV Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VV"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJsRNYRPs3aDQRX722OaseZ20",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7921894,
+                       "lng" : 120.9947457
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7935383802915,
+                          "lng" : 120.9960946802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7908404197085,
+                          "lng" : 120.9933967197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "045b75d34681f1ca8f3c2917af55e12dd6c7dd78",
+                 "name" : "墨尼捲餅",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105427051795863614031/photos\"\u003edavidhcefx\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAARsfuPIW1X_utG9cnskBw2mBihCPtqVYsqIsl0-KM_v3d1EaIHDNoLMjgEWN43hLJOYEEA6GHvWtZ1f9Zc5tqMbPUnG2AX9FwjldbjInAupoxkfAPANcqEiS6QuuARGCjEhByWkHXFJoymWR-qdeAq9PEGhQ-FnUpZuq_KInUdo2I8mXjfwanQA",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJmZ9oRMQ3aDQRqlBd1jxVf8Q",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VV Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VV"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJmZ9oRMQ3aDQRqlBd1jxVf8Q",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7922603,
+                       "lng" : 120.9947987
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936092802915,
+                          "lng" : 120.9961476802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79091131970849,
+                          "lng" : 120.9934497197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "4675af854f86fe5277c15704be226ed610290e4a",
+                 "name" : "比堤兒手感麵包專賣店(誠實商店)",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 1152,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/116169975650705706589/photos\"\u003eharrywang_laolao\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAK7F49uVKfVHMFgyv0x9rUyKAkLsfKCm5hQ--s6FS8lLDpEetzmoBIieslQ2_mRFLMlDteBYc9qkqNyCkjrFHxKBpKdB3D7x54xqtBirAXR5ve1bLvBKtpz6b8ltsjPZ1EhDWw71sXOAUpFw40T8vGr9xGhQq-yqgQDlNNFX5SG3-Mmi9HsPHJw",
+                       "width" : 2048
+                    }
+                 ],
+                 "place_id" : "ChIJOeH9XcI3aDQRd-a-411VJGU",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+WW Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+WW"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJOeH9XcI3aDQRd-a-411VJGU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "Feng Yun Building清大, 水木書苑, No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7921668,
+                       "lng" : 120.9947796
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7935157802915,
+                          "lng" : 120.9961285802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7908178197085,
+                          "lng" : 120.9934306197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+                 "id" : "546fedee944c7429dbb0b1ce6720cf7e9468d644",
+                 "name" : "珍御品粥麵館",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105427051795863614031/photos\"\u003edavidhcefx\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAYhOGUDKEPbMPC38SfZjp1SWqCEb6rPLZ2LrFVl5LBODUgi_kMjcsvFn42i79v5BdJknoWJSxpU9wjI1398HC-elVyXxl0qDw951fJTNapPq8ljasKy31ogQFmYi2LMNNEhDuSaqZu_JWyWRWFAENbGQ_GhROtekx9aOML6ZUVYfF4_WRmp1GOQ",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJodKeGAw2aDQRoL4y0iU6c74",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VW Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VW"
+                 },
+                 "rating" : 4.8,
+                 "reference" : "ChIJodKeGAw2aDQRoL4y0iU6c74",
+                 "scope" : "GOOGLE",
+                 "types" : [ "restaurant", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "183, East District"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:49 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=store
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:50 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:50 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.792915,
+                       "lng" : 120.9930097
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7942639802915,
+                          "lng" : 120.9943586802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79156601970849,
+                          "lng" : 120.9916607197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "2f1bcf59f4cb6e3ffb8be3912ce36e55cd400c98",
+                 "name" : "7-Eleven",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 2736,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/104657836088189275979/photos\"\u003e艾睿克\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA2QiO2urGwD_C8v3bezIksExAneo37EQNCjuxf5N2rkSHmesBQf5ti1dRM23YlP2jg4mI8VBZFSm3D27FVqsqZ6AK3MsqrL958HyD5yDvODhAgvJeq4g7WARgSNKWr36REhApyUWJRbQBAGsgsNBJI5-NGhTmWWiVO65HAUL48Nw4YK37dgZnNQ",
+                       "width" : 3648
+                    }
+                 ],
+                 "place_id" : "ChIJNav3KA02aDQRuuiWdgMQtoY",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+56 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+56"
+                 },
+                 "rating" : 4.7,
+                 "reference" : "ChIJNav3KA02aDQRuuiWdgMQtoY",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "convenience_store",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.792242,
+                       "lng" : 120.994139
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7935909802915,
+                          "lng" : 120.9954879802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79089301970849,
+                          "lng" : 120.9927900197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "954d7e1e033ffcc42ba0a0b9d6ccd76d983f9b2b",
+                 "name" : "清大水漫",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115298168751650306089/photos\"\u003eLeo Hu\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA1TwNhn7ovHMCNOXggo7xUbQlzaYZTt1gy49MhAouidTS-Ek-tdzR8qca76uWXvM0ZZm6pUBOIh8xkvXydx5XVhh5pL2ROVWcONSr61ZLZWHbwAY8xxxsOlvR-rgQBVbOEhBFJnJhDCT2DQX_cUCQBdzjGhSAOkOjJi5Z6zhb7n4ogVOUM04PPA",
+                       "width" : 4160
+                    }
+                 ],
+                 "place_id" : "ChIJmZinHAw2aDQRjXEjhHD3lYU",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VM Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VM"
+                 },
+                 "rating" : 4.8,
+                 "reference" : "ChIJmZinHAw2aDQRjXEjhHD3lYU",
+                 "scope" : "GOOGLE",
+                 "types" : [ "book_store", "store", "point_of_interest", "establishment" ],
+                 "vicinity" : "光復 路2段101號清華大學 水木生活中心2樓 清大水漫, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.792323,
+                       "lng" : 120.9950025
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936719802915,
+                          "lng" : 120.9963514802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7909740197085,
+                          "lng" : 120.9936535197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+                 "id" : "764338e1f6dce5c16d006b904384e3a810c1a7ef",
+                 "name" : "水木咖啡 x 小客廳",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117540863522926564722/photos\"\u003eHan Jason\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAaqNzVXcfF6S2JoO08BkmesvfSL7e4gpw2nehqi1CujMRH6tB_RSnolEi3MHLP6M1VGnAbpt8r8F-TeqLQLyxA343AACZnJws3L-2YnEh5O0JqyNeIOsvOAT9_JJx2IVlEhDOtB1aBvamoFzNFRzaPDmzGhT98C9MwMpDol7UhKPV2rY0SuHccA",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJBV0tIww2aDQRGxJsThdt9-s",
+                 "plus_code" : {
+                    "compound_code" : "QXRW+W2 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRW+W2"
+                 },
+                 "rating" : 4.4,
+                 "reference" : "ChIJBV0tIww2aDQRGxJsThdt9-s",
+                 "scope" : "GOOGLE",
+                 "types" : [ "cafe", "store", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "清華 大學 風雲 樓 一 樓 水木 書 苑 內, No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7923957,
+                       "lng" : 120.9939766
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7937446802915,
+                          "lng" : 120.9953255802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7910467197085,
+                          "lng" : 120.9926276197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "2a8a2d7da2a4f19d1564dff896da36254ba3d495",
+                 "name" : "清大眼鏡部",
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/115298168751650306089/photos\"\u003eLeo Hu\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAlj4b0B5dMi-R4ZPrLRntSCKDZEmlVoBht1sYnqw4mzGeJaWSrGHQXUjQBCG0Az_yOCB-lecR8O32evuDbVonxOQMqNAGKpPtxBiJ9-emN0-5N7MiZtEM0PJOyW3cTN3lEhD4PE7Qe3bX8xSB3WNG1HLDGhSWSchjhGoTrhMLmEw1qgsfIm8MMQ",
+                       "width" : 4160
+                    }
+                 ],
+                 "place_id" : "ChIJFbzmBAw2aDQRNk8qV-5HmAo",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+XH Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+XH"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJFbzmBAw2aDQRNk8qV-5HmAo",
+                 "scope" : "GOOGLE",
+                 "types" : [ "store", "health", "point_of_interest", "establishment" ],
+                 "vicinity" : "新竹, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7923375,
+                       "lng" : 120.9940992
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936864802915,
+                          "lng" : 120.9954481802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7909885197085,
+                          "lng" : 120.9927502197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "e7737b7d30a4153933eb0905f175216cbd688eec",
+                 "name" : "水木百貨",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117161015492918603087/photos\"\u003eJames Huang\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA5KcKDOKh2QsUnaT1xC8LgUDeooGtFQFhoHnIv92DoSMHnSiqDtvG5HmLOZyi_sh2MrOAdKlLtAx5htkjv9mVhORVNPT4-onaXZfP-19ZLG6VHgAqxYzmmihWUaU7n0EpEhAjqYbrmG8_-jmKoYrowxJaGhSEx0lDvt6xL6OxmsCA3KPOqMAm8Q",
+                       "width" : 4000
+                    }
+                 ],
+                 "place_id" : "ChIJ5bozGww2aDQRx0zwZhcQuGg",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+WJ Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+WJ"
+                 },
+                 "rating" : 4.5,
+                 "reference" : "ChIJ5bozGww2aDQRx0zwZhcQuGg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "store", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7922411,
+                       "lng" : 120.9942337
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79359008029151,
+                          "lng" : 120.9955826802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7908921197085,
+                          "lng" : 120.9928847197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "a900166d81bef63f9a9c90a6111346d9d0ad94da",
+                 "name" : "全家",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105427051795863614031/photos\"\u003edavidhcefx\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAVWJ9gtLGy2G_HjFiB_0BQ6ngrhL6uxCliAKe4a0MApI6Dp4IzdNn6IN2VHH1T46WHBNbljGeJWImdOzYxDow4YBWRnNuvaOlY6I3VspODwgUPHfJpDNBioF3bLiKVCK4EhDDaW_JxLKrpQbh3IupoLRWGhRAU1PmQX7ZRLOUI2mBdZqQpOkxgw",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJKdfStRM3aDQRi68iz0bXibM",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VM Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VM"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJKdfStRM3aDQRi68iz0bXibM",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "convenience_store",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7921955,
+                       "lng" : 120.9943431
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7935444802915,
+                          "lng" : 120.9956920802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7908465197085,
+                          "lng" : 120.9929941197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "26d9aa8f3e2c266bea2e432dd730277b5beb7cc8",
+                 "name" : "全家便利店 FamilyMart 清大水木店",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117161015492918603087/photos\"\u003eJames Huang\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAH2v8lINXnVc5pMdNpmoWsRzLkW7o-RfoVhiLknDPA8ToNFxIsve-XM4hHTIhZH0E2lcw8QEbTrJcrs2m5tDdP6FpedeV0VlHbkRN2xtAsAakOzTtdPB02B9d7epFhZUfEhCTdTL6isP4Bv-nqPREPaGeGhRZC3EFFExEI0S1CMvetLX0llH2_Q",
+                       "width" : 4000
+                    }
+                 ],
+                 "place_id" : "ChIJ0eKL6H43aDQRUoAt2XXrRz0",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VP Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VP"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJ0eKL6H43aDQRUoAt2XXrRz0",
+                 "scope" : "GOOGLE",
+                 "types" : [
+                    "convenience_store",
+                    "store",
+                    "point_of_interest",
+                    "food",
+                    "establishment"
+                 ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7923339,
+                       "lng" : 120.9946525
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936828802915,
+                          "lng" : 120.9960014802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7909849197085,
+                          "lng" : 120.9933035197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "b5d30e94f7f717ad29dab9b09957a29c2207151b",
+                 "name" : "水木書苑",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "photos" : [
+                    {
+                       "height" : 540,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/101085541583993592082/photos\"\u003e水木書苑\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAblFPTAXp4_6EeV5lF2lgl78zVss55MjNvIrAaZCwRo1Xu0pj1ca7-fLfOdVC8QXQ4sDErBpQ9jPkbpw7apUYFsiIh0ECZOHvm3LdUzBHUSSy4cHluMEWorEZC5p-xSjTEhAiq1iV1u7m73wye1TylC8WGhQB7SgP-S9ebXeFpRGdBMfaCvJjKw",
+                       "width" : 960
+                    }
+                 ],
+                 "place_id" : "ChIJI8laGAw2aDQR4-rPYLe46D8",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+WV Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+WV"
+                 },
+                 "rating" : 4.2,
+                 "reference" : "ChIJI8laGAw2aDQR4-rPYLe46D8",
+                 "scope" : "GOOGLE",
+                 "types" : [ "book_store", "store", "point_of_interest", "establishment" ],
+                 "vicinity" : "101號風雲樓一樓, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7923026,
+                       "lng" : 120.994678
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936515802915,
+                          "lng" : 120.9960269802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7909536197085,
+                          "lng" : 120.9933290197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "6a7d46aceaa5cd34a71528cfac8647aba37859d3",
+                 "name" : "清大-水木書苑",
+                 "photos" : [
+                    {
+                       "height" : 4208,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555/photos\"\u003eDavid Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAX0KlDE0iaxJv70Sgi0qJik5tk7B6pHyxbcv5TGxhLF82YXS5vgV9kIujpdYx-ssUcYFfLoemgNffIGVufZhxsQ5eY0aoLJeZaoAIbXkmcYu0LGDuDBfwht74rltR0ZqTEhDy3g1JeE5hJvAFG4VNCoAsGhQbLu0rPfVKIs-4MtRh3K45MAWsbw",
+                       "width" : 2368
+                    }
+                 ],
+                 "place_id" : "ChIJWSpFGAw2aDQRB9u5sWFh23U",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+WV Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+WV"
+                 },
+                 "rating" : 4.1,
+                 "reference" : "ChIJWSpFGAw2aDQRB9u5sWFh23U",
+                 "scope" : "GOOGLE",
+                 "types" : [ "book_store", "store", "point_of_interest", "establishment" ],
+                 "vicinity" : "Lane 183, Gongyuan Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7922457,
+                       "lng" : 120.9948087
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7935946802915,
+                          "lng" : 120.9961576802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7908967197085,
+                          "lng" : 120.9934597197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "5fa8367f07ee9146181e6ba8f2b83e74bf7a79d7",
+                 "name" : "帕森 PASTA",
+                 "photos" : [
+                    {
+                       "height" : 2916,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555/photos\"\u003eDavid Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAbEorMpaLQ0moVhogpTBLklM77iDB2Vhw_L2T3r7bmVCDDiwr73NwoQXTIbRrxv5O5rM6osJVwQqez5zs9m19YbYEtKYNmbaLyPVIM78kx9S38lLw2EKr9G7f_pTSdfn-EhBmMFLtbD0ayjxhs89WI5bwGhTf-c93pp10HblQVdBb_Ilc0vuvNQ",
+                       "width" : 1926
+                    }
+                 ],
+                 "place_id" : "ChIJ1x9WJuQ3aDQRPXxaXdRqOUQ",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+VW Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+VW"
+                 },
+                 "reference" : "ChIJ1x9WJuQ3aDQRPXxaXdRqOUQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "store", "point_of_interest", "food", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7923175,
+                       "lng" : 120.9948664
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7936664802915,
+                          "lng" : 120.9962153802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7909685197085,
+                          "lng" : 120.9935174197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "df7475d62906261f28fad3f2fa0ea47c52cf3d3f",
+                 "name" : "Straight A-清華大學Apple授權校園體驗店",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3024,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/114474245298607232252/photos\"\u003eStraight A-清華大學Apple授權校園體驗店\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAzh7bHG61neMAd8k5ZsCw8WdDcMVK7O4OJvcZMvLIumqyEQJu6Atgnrt0zm1YXTcbFr83kGxz6LUa190GjgOVgzIkQX1AH39Ej9ENcf5arsryyzotPmz2RfTqWPapSJkqEhA_1uFsPvfN924QCnJeSIbmGhRbvPDVxjpAYE4_ACkwBgbeqV4eNg",
+                       "width" : 4032
+                    }
+                 ],
+                 "place_id" : "ChIJ3V4KGAw2aDQRT0TG_JQndcc",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+WW Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+WW"
+                 },
+                 "rating" : 3.6,
+                 "reference" : "ChIJ3V4KGAw2aDQRT0TG_JQndcc",
+                 "scope" : "GOOGLE",
+                 "types" : [ "electronics_store", "store", "point_of_interest", "establishment" ],
+                 "vicinity" : "清大風雲樓1F水木書苑, No. 101, 光復路二段, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7963498,
+                       "lng" : 120.9950069
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7976987802915,
+                          "lng" : 120.9963558802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7950008197085,
+                          "lng" : 120.9936579197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+                 "id" : "8ab7f85e348d5396454e856f7c1023c28a54c02f",
+                 "name" : "友善書業供給合作社",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "place_id" : "ChIJ_Q6CyAw2aDQRTVXs1rYMLxQ",
+                 "plus_code" : {
+                    "compound_code" : "QXWW+G2 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXWW+G2"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJ_Q6CyAw2aDQRTVXs1rYMLxQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "book_store", "store", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 20, Lane 2, Anhe Street, East District"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:50 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=school
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:50 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:50 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "next_page_token" : "CqQCHwEAAHBfPkDVCIKxDZ3a8Dx02mL0-fpK2QAudZJfniSbMsMRAKd3FFdNUgB9WsxPfFulONwCtImzZ_pc6JXdTnnrwwISBLNwUrsCUaIJc-oIZaRb_MtVDIi20etPsE-YAy_zJSs0PcM0PN_izCxR4ngq2BPx5mLivJQDaHQfiC4eiZutJISJvEkfSehXr07dMdIPwcMkfhPXheVRsy6rTjQGWHIUryr0ZHEDd2sEbdO9u-CcZ0Sr2tKgXJ0shgpeBbHYisLS-uC3Fgp14Oq4r_CYOaslyzz_oGmbvWoUSEYqQ1FeGxpa6kb2r9XljwMj-Ctesc7qx5o3gTDDeTBDs8HO0lsLrQhB2fXQyTe6aeXh5z5Z0lr4JI50Cka-T3N4UyzRqBIQNXZIf6uVBCtBUi15lBrM-xoUls4GLk4xi03PWOYi11GLD9illjU",
+           "results" : [
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7936169,
+                       "lng" : 120.9919454
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7949658802915,
+                          "lng" : 120.9932943802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7922679197085,
+                          "lng" : 120.9905964197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+                 "id" : "b6b92dfa7f7566c9d4a9ca13a26464ab05d432bd",
+                 "name" : "清華大學慈青社 NTHU Tzu Ching Club",
+                 "photos" : [
+                    {
+                       "height" : 1000,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/101678346233836958665/photos\"\u003e清華大學慈青社 NTHU Tzu Ching Club\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAKaY471SI-yiOr9PGXmkzApreVCV1hh8PASpyFvVtqHpEoUPON57pBqf8D3SnJjrjCig1bak1_JG2TdJvrPTO9fo-i49HseektULIFifvxI__owgyh5-p7LOON6hbEhnSEhDDOCSNt7kxNt586wUD2UIBGhRh2gorNEz9rCe_39Dw9XxnWVR-0Q",
+                       "width" : 1000
+                    }
+                 ],
+                 "place_id" : "ChIJP46b6gs2aDQRzCX9YqImAew",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+CQ Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+CQ"
+                 },
+                 "reference" : "ChIJP46b6gs2aDQRzCX9YqImAew",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "school", "establishment" ],
+                 "vicinity" : "學生活動中心 (蒙民偉樓) R309, ,新竹市光復路二段101號, 東區"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.794481,
+                       "lng" : 120.993231
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7958299802915,
+                          "lng" : 120.9945799802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79313201970849,
+                          "lng" : 120.9918820197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "489db60c6517ef8ac21342b6698052c72b0c0759",
+                 "name" : "清華大學材料科技館",
+                 "opening_hours" : {
+                    "open_now" : true
+                 },
+                 "place_id" : "ChIJ7UjbgAs2aDQRs6MVsyUogzg",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+Q7 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+Q7"
+                 },
+                 "reference" : "ChIJ7UjbgAs2aDQRs6MVsyUogzg",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "材料科技館, 新竹市東區光復路二段101號, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7946262,
+                       "lng" : 120.9932028
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7962427302915,
+                          "lng" : 120.9947150802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7935447697085,
+                          "lng" : 120.9920171197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "5a944467c367c454bafa9a58d4c83579a07443f6",
+                 "name" : "清華大學普物實驗室",
+                 "photos" : [
+                    {
+                       "height" : 1706,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112139353272936387906/photos\"\u003eTram Chen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAw_W7AtblNK5mKVjKsV0kqZ0wTbGOM0CBDNe8eqGjiaCIkiPmHVi1ZhWVA7c0GQPm6-YQ--5ZJCAGLX9xDOFCVqsede4OuK6fftMj5ih9lJA3218gaywzmne7OL-6BeAPEhA9kiuaLusDQ4LAnTZZKuswGhTWJlTfQj6IqiaiTfLC5O-CyNDBmw",
+                       "width" : 960
+                    }
+                 ],
+                 "place_id" : "ChIJbbJTgAs2aDQRficmpGFpCeo",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+V7 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+V7"
+                 },
+                 "rating" : 4.7,
+                 "reference" : "ChIJbbJTgAs2aDQRficmpGFpCeo",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "號, No. 124, 光復路二段155巷, 東區"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7963498,
+                       "lng" : 120.9950069
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7976987802915,
+                          "lng" : 120.9963558802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7950008197085,
+                          "lng" : 120.9936579197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "54558d7e61976fb8822470c853085ea6a35b8cae",
+                 "name" : "清華大學化工館",
+                 "photos" : [
+                    {
+                       "height" : 2992,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117475019715965165771/photos\"\u003eT.C Liu\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA5PLWNfzV5UmrGaIlVnR2BUfnS_90JGZXAR4_2BVeaSINrWsLY6pK146O2WvkvaoosECqu3RtKOc-967oqI1pyTLaVWHV-ZwRkYPo7Gqwpn4aiFzE4AzGE8OLASovNqbrEhCGu8w4fglFIBz1Se5WIQClGhTvr-eZTn5wnLfzVZmFMWXMI2czXA",
+                       "width" : 5312
+                    }
+                 ],
+                 "place_id" : "ChIJ_Q6CyAw2aDQRMdfcULgNHos",
+                 "plus_code" : {
+                    "compound_code" : "QXWW+G2 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXWW+G2"
+                 },
+                 "reference" : "ChIJ_Q6CyAw2aDQRMdfcULgNHos",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101, Section 2, Guangfu Road, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7944328,
+                       "lng" : 120.9975797
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7957817802915,
+                          "lng" : 120.9989286802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79308381970849,
+                          "lng" : 120.9962307197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "9c2a3617bab4d59823323ff79019b553532d7ee0",
+                 "name" : "財團法人信誼基金會附設新竹市私立光明幼兒園",
+                 "photos" : [
+                    {
+                       "height" : 4032,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/116933077841250579547/photos\"\u003eying-chi liao\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAASgi7q7hRdl8Z9sFJ0Z6IonlE_GoQSe95sq9vWm3Mqh0l12Lq7t1mQeZdjodBfUfDrU9699469T8oaDesxF2YoO4hrpUaWNozB56dDRPp80bcxIEyy_0JRWoTNjCxjHWIEhBGWNlKiVhx3kIb4BWAQNVgGhROEYczlMuiWBiHvvJo_Pmrcs8Czg",
+                       "width" : 1960
+                    }
+                 ],
+                 "place_id" : "ChIJ_7RB7BI2aDQRVkcfVAXOOww",
+                 "plus_code" : {
+                    "compound_code" : "QXVX+Q2 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVX+Q2"
+                 },
+                 "rating" : 4.3,
+                 "reference" : "ChIJ_7RB7BI2aDQRVkcfVAXOOww",
+                 "scope" : "GOOGLE",
+                 "types" : [ "point_of_interest", "school", "establishment" ],
+                 "vicinity" : "No. 186號, 光明新村, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7887543,
+                       "lng" : 120.9921476
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7901032802915,
+                          "lng" : 120.9934965802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.78740531970849,
+                          "lng" : 120.9907986197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "38f4a9d13c7078463ce809a1b0794ec087793d93",
+                 "name" : "加速器實驗室",
+                 "place_id" : "ChIJmTXIwwg2aDQRdqGVeYoUBfo",
+                 "plus_code" : {
+                    "compound_code" : "QXQR+GV Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXQR+GV"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJmTXIwwg2aDQRdqGVeYoUBfo",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "號, No. 101, Section 2, Guangfu Rd, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7933749,
+                       "lng" : 120.992102
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7947238802915,
+                          "lng" : 120.9934509802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7920259197085,
+                          "lng" : 120.9907530197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "132ed67b79f229941d3eae086b262fc42831117b",
+                 "name" : "國立清華大學天文社",
+                 "opening_hours" : {
+                    "open_now" : false
+                 },
+                 "photos" : [
+                    {
+                       "height" : 3544,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/112515135480234342068/photos\"\u003e國立清華大學天文社\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAUZdLOPytmDZ5RKXGBmQjEcmriElGCVFuOxAUf_68mE0YZ1HjPEJ5Wdq8TQrZWeRYkGPZfYAiFxvHo-0j5Emk384QfksgCfFaZCW-U0p8Qzy4HPZiWpumEMuKI8-OW30lEhAVpy-j4cLzC-hYrbobhJXtGhRO93q6SAAqoR7GlgimhlXEdREl9A",
+                       "width" : 4724
+                    }
+                 ],
+                 "place_id" : "ChIJq4os6gs2aDQRmSpA76mZvec",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+8R Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+8R"
+                 },
+                 "reference" : "ChIJq4os6gs2aDQRmSpA76mZvec",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "光復路二段101號, 蒙民偉樓R318室, 國立清華大學天文社, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.793381,
+                       "lng" : 120.9920776
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79472998029151,
+                          "lng" : 120.9934265802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7920320197085,
+                          "lng" : 120.9907286197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "9d2fbaa1e57c71806ecfbb26fba60d023b92d91c",
+                 "name" : "清華大學天文社",
+                 "place_id" : "ChIJ8Rgv6gs2aDQR7JkFGtDXxa8",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+9R Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+9R"
+                 },
+                 "reference" : "ChIJ8Rgv6gs2aDQR7JkFGtDXxa8",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "光明里, 300, 台灣, 新竹市東區, 清華, 大學蒙, 民, 偉樓R318, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7926305,
+                       "lng" : 120.9919055
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7939794802915,
+                          "lng" : 120.9932544802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79128151970849,
+                          "lng" : 120.9905565197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "8ff6e5ba643b93777a37691d71551b2448378836",
+                 "name" : "三區服務中心_國立清華大學",
+                 "place_id" : "ChIJey6JCFc3aDQRPxJ6D8YXEQQ",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+3Q Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+3Q"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJey6JCFc3aDQRPxJ6D8YXEQQ",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7942539,
+                       "lng" : 120.9926958
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7956028802915,
+                          "lng" : 120.9940447802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79290491970849,
+                          "lng" : 120.9913468197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "40d766d85e6a36e579b39c0becf7b2f25db1042c",
+                 "name" : "清華大學學習科學研究所",
+                 "photos" : [
+                    {
+                       "height" : 1456,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/109095150818185310881/photos\"\u003eHsinlan Wang\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAqOWaEgacWguenjW91Bw_ubPXLHAiZPWUeMcuO02s5mBZJ4qUKaF3FABdRVFvzXEsFI9K87_zg1AHhQQddapariDUqSLN6wPvNGF-TFYdLqhvk4l16TFUYcct4Xvu3qayEhAvX-5qCY5lvDVcMj6HimgSGhRCS8Udw07ymy9qTOD4cFBPmCe47w",
+                       "width" : 2592
+                    }
+                 ],
+                 "place_id" : "ChIJU1VFhQs2aDQRpItRZLCSQRc",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+P3 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+P3"
+                 },
+                 "reference" : "ChIJU1VFhQs2aDQRpItRZLCSQRc",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "新竹, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.794472,
+                       "lng" : 120.9932232
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7958209802915,
+                          "lng" : 120.9945721802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7931230197085,
+                          "lng" : 120.9918742197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "0404589bb0bd049fd0863dd516e31b5a40df99f0",
+                 "name" : "Language Center",
+                 "photos" : [
+                    {
+                       "height" : 2304,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/101617112959755866292/photos\"\u003e游筱嵩\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAamVh4JCLs6C6SrGsstvN1avCQjTHAUpzCcILHQT_afxfTHztZZZQ7o0P4iStXQQcEKBn1idWh61dve1UJuex42HNhLMaraCQxs8_PGBDF2osvWeyBsfnKOZAzFFVOPyeEhByXhbsBCJiAOUGKwaMkWSOGhSQ5WgBCOtZQxyYaiWB3Q4AJwhMEQ",
+                       "width" : 4096
+                    }
+                 ],
+                 "place_id" : "ChIJ7fTagAs2aDQR9utSkWkQeqI",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+Q7 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+Q7"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJ7fTagAs2aDQR9utSkWkQeqI",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "新竹, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.794404,
+                       "lng" : 120.9935957
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7957529802915,
+                          "lng" : 120.9949446802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7930550197085,
+                          "lng" : 120.9922467197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "8449f72cf0f1de57441e0ce989d63489b5ec6768",
+                 "name" : "Dormitory Hung National Tsing Hua University",
+                 "photos" : [
+                    {
+                       "height" : 3120,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/105417419133964384289/photos\"\u003eShashank Maurya\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAA0Dx8jC30OExkrfyW-CM8aqQRf3VcG2mTlX89GoIoS5o0rcSMSXm9WIt6I4emod8B5ACWEjNHL3NTb_nQ93447k-f4aANGR-9aM8NV_88UZFph42iASAkCFmWXu7YiLOoEhD1fMXEMNH0LSesaTa07joFGhTOXVQSc99kW2cPIwDAfBhUqkEaGA",
+                       "width" : 4160
+                    }
+                 ],
+                 "place_id" : "ChIJRTvyC3s3aDQRKZUDTnXqnLE",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+QC Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+QC"
+                 },
+                 "reference" : "ChIJRTvyC3s3aDQRKZUDTnXqnLE",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "Unnamed Road, 東區"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7947093,
+                       "lng" : 120.9937962
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7962914802915,
+                          "lng" : 120.9950117802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7935935197085,
+                          "lng" : 120.9923138197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "24f065f0caf83a65e5930ed4fc05101eb2256509",
+                 "name" : "清華園",
+                 "place_id" : "ChIJ45jgxdc3aDQRDUr3dOCX6a4",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+VG Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+VG"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJ45jgxdc3aDQRDUr3dOCX6a4",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "No. 101號, Section 2, Guangfu Road"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.791369,
+                       "lng" : 120.99393
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.79271798029151,
+                          "lng" : 120.9952789802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7900200197085,
+                          "lng" : 120.9925810197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "6ce67350c33d0ca0fdd0bfa5722a3bb48fc09150",
+                 "name" : "誠齋",
+                 "place_id" : "ChIJu2W4siU3aDQRUqKx1BcyTZI",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+GH Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+GH"
+                 },
+                 "reference" : "ChIJu2W4siU3aDQRUqKx1BcyTZI",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7912026,
+                       "lng" : 120.993063
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7925515802915,
+                          "lng" : 120.9944119802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7898536197085,
+                          "lng" : 120.9917140197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "30082731c4eb7dfa2e9006cd470f32aaefca13b8",
+                 "name" : "清华大学清斋",
+                 "place_id" : "ChIJcQYXTAk2aDQRWd38kzQs1V0",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+F6 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+F6"
+                 },
+                 "reference" : "ChIJcQYXTAk2aDQRWd38kzQs1V0",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7949223,
+                       "lng" : 120.9934127
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7963907802915,
+                          "lng" : 120.9948200302915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7936928197085,
+                          "lng" : 120.9921220697085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "83deae1eed696c41cadd72e2d016354bd464ab92",
+                 "name" : "國立清華大學第三綜合大樓",
+                 "place_id" : "ChIJ4__PgQw2aDQRJbgBjzIp1dc",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+X9 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+X9"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJ4__PgQw2aDQRJbgBjzIp1dc",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "東區光明里"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7946293,
+                       "lng" : 120.9944097
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7959782802915,
+                          "lng" : 120.9957586802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.79328031970849,
+                          "lng" : 120.9930607197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "5f0108ba372b86b8da6af6367729f80cae55db21",
+                 "name" : "清華大學合勤廳",
+                 "place_id" : "ChIJp2KEiQw2aDQRQ2ulNqfE0ao",
+                 "plus_code" : {
+                    "compound_code" : "QXVV+VQ Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVV+VQ"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJp2KEiQw2aDQRQ2ulNqfE0ao",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "新竹, East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7949566,
+                       "lng" : 120.9922672
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7963055802915,
+                          "lng" : 120.9936161802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7936076197085,
+                          "lng" : 120.9909182197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "3fcfa61e5abb8dcfad9efa86891135b28d3e5e11",
+                 "name" : "清華大學資電館",
+                 "photos" : [
+                    {
+                       "height" : 2368,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/117157345919607716555/photos\"\u003eDavid Yen\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAosdSliEkjglX11AQ67RUQiOBSjOdXut4hjYrXvIHpe9jmucnlZ_N66lpPmb9FEzel81syFdXNad7OSceAPb6OBxjZlujpDmGP4zMQY15fccK9SP_vHHr4Jd5b-HXXeBdEhBmifaRjXWfTv9hsTfPmyU8GhS1svioVcxVsa2gCGcOeHClpAq9sQ",
+                       "width" : 4208
+                    }
+                 ],
+                 "place_id" : "ChIJ4_kDngs2aDQRB_v6uc4tdyI",
+                 "plus_code" : {
+                    "compound_code" : "QXVR+XW Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXVR+XW"
+                 },
+                 "rating" : 5,
+                 "reference" : "ChIJ4_kDngs2aDQRB_v6uc4tdyI",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "East District"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7909393,
+                       "lng" : 120.9934358
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7922882802915,
+                          "lng" : 120.9947847802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.78959031970849,
+                          "lng" : 120.9920868197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "23cbe8d650365f5283d75f19c7ae530516a842f5",
+                 "name" : "國立清華大學清齋",
+                 "photos" : [
+                    {
+                       "height" : 3446,
+                       "html_attributions" : [
+                          "\u003ca href=\"https://maps.google.com/maps/contrib/113830757419644826829/photos\"\u003e李沅達\u003c/a\u003e"
+                       ],
+                       "photo_reference" : "CmRaAAAAe0-ltUTvHW-BHD9u7rrgPSj7Yh9-urtDxg-al4rUhov_aUxbgvRmJ6kBMqQu-b02D06r2yRQCGocSdmJ0mKODcjwHT1BNULSzQacclJkqieC-nsKxprG8AsGECR3N_n4EhB3Se4iI5dKvY4AIPmy7iiyGhQWuflI27c5z1xVp4vBU8yhaR8sDw",
+                       "width" : 5168
+                    }
+                 ],
+                 "place_id" : "ChIJOUJwUQk2aDQRXvLpOTUhmgM",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+99 Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+99"
+                 },
+                 "rating" : 2.5,
+                 "reference" : "ChIJOUJwUQk2aDQRXvLpOTUhmgM",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "新竹市光復路二段國立清華大學清齋"
+              },
+              {
+                 "geometry" : {
+                    "location" : {
+                       "lat" : 24.7905129,
+                       "lng" : 120.9939407
+                    },
+                    "viewport" : {
+                       "northeast" : {
+                          "lat" : 24.7918618802915,
+                          "lng" : 120.9952896802915
+                       },
+                       "southwest" : {
+                          "lat" : 24.7891639197085,
+                          "lng" : 120.9925917197085
+                       }
+                    }
+                 },
+                 "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+                 "id" : "0d5bc3ebfa3bdee5e11ad70223a9bbd6680c2f8f",
+                 "name" : "清大鴻齋",
+                 "place_id" : "ChIJRSlIyA42aDQRq-yBULc0qs8",
+                 "plus_code" : {
+                    "compound_code" : "QXRV+6H Hsinchu, East District, Hsinchu City, Taiwan",
+                    "global_code" : "7QP2QXRV+6H"
+                 },
+                 "rating" : 4,
+                 "reference" : "ChIJRSlIyA42aDQRq-yBULc0qs8",
+                 "scope" : "GOOGLE",
+                 "types" : [ "school", "point_of_interest", "establishment" ],
+                 "vicinity" : "East District"
+              }
+           ],
+           "status" : "OK"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:50 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=shopping_mall
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:51 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:51 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:51 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=subway_station
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:51 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:51 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:51 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=train_station
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:51 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:51 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:51 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyC4LirbgvCIiaN5OI0Y8UlDfSOoBOb-7sA&location=24.793045,120.993091&radius=500&types=transit_station
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:51 GMT
+      Expires:
+      - Sun, 21 Oct 2018 08:35:51 GMT
+      Cache-Control:
+      - public, max-age=300
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "ZERO_RESULTS"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:51 GMT
+- request:
+    method: get
+    uri: https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=xxx&location=24.793045,120.993091&radius=500
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Connection:
+      - close
+      Host:
+      - maps.googleapis.com
+      User-Agent:
+      - http.rb/3.3.0
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 21 Oct 2018 08:30:51 GMT
+      Pragma:
+      - no-cache
+      Expires:
+      - Fri, 01 Jan 1990 00:00:00 GMT
+      Cache-Control:
+      - no-cache, must-revalidate
+      Server:
+      - scaffolding on HTTPServer2
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alt-Svc:
+      - quic=":443"; ma=2592000; v="44,43,39,35"
+      Accept-Ranges:
+      - none
+      Vary:
+      - Accept-Language,Accept-Encoding
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: |
+        {
+           "error_message" : "The provided API key is invalid.",
+           "html_attributions" : [],
+           "results" : [],
+           "status" : "REQUEST_DENIED"
+        }
+    http_version: 
+  recorded_at: Sun, 21 Oct 2018 08:30:51 GMT
+recorded_with: VCR 4.0.0

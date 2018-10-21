@@ -13,5 +13,5 @@ require_relative '../lib/lbs_api.rb'
 
 Test = File.read('spec/fixtures/test.yml')
 
-CASSETTES_FOLDER = 'fixtures/cassettes'.freeze
+CASSETTES_FOLDER = 'spec/fixtures/cassettes'.freeze
 CASSETTE_FILE = 'lbs_api'.freeze

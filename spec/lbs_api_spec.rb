@@ -1,4 +1,4 @@
-# rubocop:disable Metrics/LineLength, Metrics/BlockLength, Lint/MissingCopEnableDirective
+# rubocop:disable Lint/MissingCopEnableDirective
 # frozen_string_literal:false
 
 require_relative 'spec_helper.rb'

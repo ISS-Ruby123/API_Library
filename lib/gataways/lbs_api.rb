@@ -2,6 +2,7 @@
 
 require 'http'
 require 'yaml'
+require_relative 'geo_handler.rb'
 
 # LBS service api module
 module LBS

@@ -3,6 +3,7 @@
 require 'yaml'
 require 'http'
 
+
 # Define Handler
 module GeoHandler
   # Model for Location_Info

@@ -16,3 +16,16 @@ gem 'webmock'
 gem 'flog'
 gem 'reek'
 gem 'rubocop'
+
+#Web applicaition related
+
+gem 'econfig' , '~> 2.1'
+
+#Database related 
+gem 'hirb'
+gem 'sequel'
+
+group :development, :test do 
+    gem 'database_cleaner'
+    gem 'sqlite3'
+end

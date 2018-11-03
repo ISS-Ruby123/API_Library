@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # frozen_string_literal: true
 
+=======
+>>>>>>> ed63c9ba2a357ea38064577d3730356f8ade06cd
 require 'roda'
 require 'econfig'
 

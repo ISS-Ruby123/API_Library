@@ -7,7 +7,11 @@ require_relative '../entities/site.rb'
 module LBS
   # Class SiteMapper
   class SiteMapper
+<<<<<<< HEAD:app/models/mappers/site.mapper.rb
     def initialize(token = LBS::GetToken.new.token , gateway_class = LBS::LbsApi)
+=======
+    def initialize(token = LBS::GetToken.new.token, gateway_class = LBS::LbsApi)
+>>>>>>> ed63c9ba2a357ea38064577d3730356f8ade06cd:app/models/mappers/site.mapper.rb
       @token = token
       @gateway_class = gateway_class
       @gateway = @gateway_class.new(@token)

@@ -1,17 +1,18 @@
-# frozen_string_literal:false
+# frozen_string_literal: false
+
+ENV['RACK_ENV'] = 'test'
 
 require 'simplecov'
 SimpleCov.start
 
+require 'yaml'
+
 require 'minitest/autorun'
 require 'minitest/rg'
-require 'yaml'
-require 'vcr'
-require 'webmock'
 
-require_relative '../lib/lbs_api.rb'
+require 'pry' # for debugging
 
-Test = File.read('spec/fixtures/test.yml')
+require_relative '../init.rb'
 
-CASSETTES_FOLDER = 'spec/fixtures/cassettes'.freeze
-CASSETTE_FILE = 'lbs_api'.freeze
+TOKEN = CodePraise::App.config.Google_TOKEN
+CORRECT = YAML.safe_load(File.read('spec/fixtures/Test.yml'))

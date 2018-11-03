@@ -7,7 +7,7 @@ require_relative '../entities/site.rb'
 module LBS
   # Class SiteMapper
   class SiteMapper
-    def initialize(token = LBS::GetToken.new.get_token , gateway_class = LBS::LbsApi)
+    def initialize(token = LBS::GetToken.new.token , gateway_class = LBS::LbsApi)
       @token = token
       @gateway_class = gateway_class
       @gateway = @gateway_class.new(@token)
@@ -68,7 +68,7 @@ module LBS
   # class GetToken
   class GetToken
     def token
-      token = YAML.safe_load(File.read('../../config/secrets.yml'))
+      token = YAML.safe_load(File.read('../../../config/secrets.yml'))
       token['Google_TOKEN']
     end
   end

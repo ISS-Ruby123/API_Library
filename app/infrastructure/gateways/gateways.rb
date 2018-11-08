@@ -2,13 +2,13 @@
 
 require 'http'
 require 'yaml'
-require_relative 'geo_handler.rb'
+require_relative 'pipeline.rb'
 
 # LBS service api module
-module LBS
-  include GeoHandler
+module Gateways
+  include Pipeline
   # Class for Location based service API
-  class LbsApi
+  class SiteApi
     def initialize(token)
       @token = token
     end
@@ -20,8 +20,8 @@ module LBS
 
   # Class for Request
   class Request
-    GEOCODE_PATH = 'https://maps.googleapis.com/maps/api/geocode/json?'
-    NEARBY_PATH = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?'
+    GEOCODE_PATH = 'https://maps.googleapis.com/maps/api/geocode/json?'.freeze
+    NEARBY_PATH = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?'.freeze
 
     def initialize(token, cache = {})
       @token = token
@@ -41,13 +41,13 @@ module LBS
         raise(api_response.error) unless api_response.successful?
       end
 
-      GeoHandler::Locater.new(url).all_sites if response_code == 200
+      Pipeline::Locater.new(url).all_sites if response_code == 200
     end
 
     def get_status(url)
       @cache.fetch(url) do
         # GeoHandler::Locater.new(url).status?
-        GeoHandler::HttpObject.new(url).status?
+        Pipeline::HttpObject.new(url).status?
       end
     end
   end

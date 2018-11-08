@@ -3,9 +3,8 @@
 require 'yaml'
 require 'http'
 
-
 # Define Handler
-module GeoHandler
+module Pipeline
   # Model for Location_Info
   class Locater
     PLACE_TYPE = ['airport', 'cafe', 'city_hall', 'department_store',
@@ -47,7 +46,7 @@ module GeoHandler
         site_info['address'] = site['vicinity']
         site_list << site_info
       end
-      return site_list
+      site_list
     end
 
     # :reek:UtilityFunction

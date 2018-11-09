@@ -16,6 +16,10 @@ module Gateways
     def near_site_list(lat, lng, distance)
       Request.new(@token).near_sites(lat, lng, distance)
     end
+
+    def geocode_of(addr)
+      Request.new(@token).geocode(addr)
+    end
   end
 
   # Class for Request
@@ -31,22 +35,25 @@ module Gateways
     def near_sites(lat, lng, distance)
       location_argv = ['location=%f,%f', 'radius=%d', 'key=%s'].join('&')
       url = format(NEARBY_PATH + location_argv, lat, lng, distance, @token)
-      search(url)
+      Pipeline::Locater.new(url).all_sites if response_code(url) == 200
     end
 
-    def search(url)
-      response_code = get_status(url)
+    def geocode(addr)
+      location_argv = ['address=%s', 'key=%s'].join('&')
+      url = format(GEOCODE_PATH + location_argv, addr, @token)
+      Pipeline::Locater.new(url).site_geo if response_code(url) == 200
+    end
 
-      Response.new(response_code).tap do |api_response|
+    def response_code(url)
+      code = get_status(url)
+      Response.new(code).tap do |api_response|
         raise(api_response.error) unless api_response.successful?
       end
-
-      Pipeline::Locater.new(url).all_sites if response_code == 200
+      code
     end
 
     def get_status(url)
       @cache.fetch(url) do
-        # GeoHandler::Locater.new(url).status?
         Pipeline::HttpObject.new(url).status?
       end
     end

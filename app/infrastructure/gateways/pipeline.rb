@@ -26,6 +26,10 @@ module Pipeline
       end
     end
 
+    def site_geo
+      geocode_of_site(url)
+    end
+
     # collect urls of wanted types
     def selected_type
       PLACE_TYPE.reduce({}) do |url_list, type|
@@ -47,6 +51,11 @@ module Pipeline
         site_list << site_info
       end
       site_list
+    end
+
+    # retrieving geocode of the aimed site based on address
+    def geocode_of_site(url)
+      get_geo_info(url)['results'][0]['geometry']['location']
     end
 
     # :reek:UtilityFunction

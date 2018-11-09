@@ -5,8 +5,8 @@ require 'sequel'
 DB = Sequel.sqlite
 DB.create_table :site do
   primary_key :geo_code
-  Integer     :lat, null: false
-  Integer     :lng, null: false
+  Float     :lat, null: false
+  Float     :lng, null: false
   String      :name, null: false
   String      :address, null: false
 end

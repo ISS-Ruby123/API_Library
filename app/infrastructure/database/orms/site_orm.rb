@@ -10,5 +10,11 @@ module Database
               name: 'home',
               address: '台中市西屯區成都路267號')
 
-  puts site.all
+  site.insert(lat: '24.171193',
+              lng: '120.664384',
+              name: 'home',
+              address: 'XX路101號')
+  
+
+  puts site.where(geo_code: '2')
 end

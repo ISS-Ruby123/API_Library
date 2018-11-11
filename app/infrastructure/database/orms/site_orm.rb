@@ -1,20 +1,21 @@
 # frozen_string_literal: true
 
-require_relative '../migrations/001_site_create.rb'
+require 'sequel'
+require 'pg'
 
-# module for Database
-module Database
-  site = DB[:site]
-  site.insert(lat: '24.171193',
-              lng: '120.664384',
-              name: 'home',
-              address: '台中市西屯區成都路267號')
+module Site
+  module Database
+    # Object-Relational Mapper for Members
+    class SiteOrm < Sequel::Model(:sites)
+      one_to_many :comment,
+                  class: :'Site::Database::CommentOrm',
+                  key: :comment_id
 
-  site.insert(lat: '24.171193',
-              lng: '120.664384',
-              name: 'home',
-              address: 'XX路101號')
-  
+      plugin :timestamps, update_on_create: true
 
-  puts site.where(geo_code: '2')
+      def self.find_or_create(site_info)
+        first(name: site_info[:name]) || create(site_info)
+      end
+    end
+  end
 end

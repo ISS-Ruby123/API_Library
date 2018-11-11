@@ -1,0 +1,7 @@
+config/secrets.yml
+spec/fixtures/
+coverage/
+*.db
+.pryrc
+.bundle/
+.DS_Store

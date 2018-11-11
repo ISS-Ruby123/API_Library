@@ -5,20 +5,23 @@ require_relative '../../infrastructure/gateways/gateways.rb'
 require_relative '../entities/entity.rb'
 
 module Mapper
-  # class SiteMapper
-  class SiteMapper
+  # class SearchMapper
+  class SearchMapper
     def initialize(token_source)
       @token = Mapper::Token.new.fetch_token(token_source)
       @gateway = Gateways::SiteApi.new(@token)
     end
 
     def load_near_site_list(lat, lng, distance)
-      SiteMapper.build_entity(@gateway.near_site_list(lat, lng, distance))
+      SearchMapper.build_entity(@gateway.near_site_list(lat, lng, distance))
     end
 
     def self.build_entity(data)
       DataMapper.new(data).build_entity
     end
+  end
+
+  class AddMapper
   end
 
   # class DataMapper
@@ -95,3 +98,11 @@ module Mapper
     end
   end
 end
+<<<<<<< HEAD:app/domain/mappers/mapper.rb
+=======
+
+# x = Mapper::SearchMapper.new('../../../config/secrets.yml')
+#                       .load_near_site_list(24.793045, 120.993091, 500)
+
+# puts x.location.map {|x| x['lat'].to_s + '_' + x['lng'].to_s}
+>>>>>>> f12c07e23f3f28e59765c43ddfd02a25bb8a66aa:app/domain/mappers/mapper.rb

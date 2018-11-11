@@ -20,6 +20,10 @@ gem 'http', '~> 3.0'
 gem 'hirb'
 gem 'sequel'
 
+group :production do
+  gem 'pg'
+end
+
 group :development, :test do
   gem 'database_cleaner'
   gem 'sqlite3'

@@ -3,7 +3,7 @@
 require 'roda'
 require 'econfig'
 
-module CodePraise
+module Site
   # Configuration for the App
   class App < Roda
     plugin :environments
@@ -24,6 +24,10 @@ module CodePraise
     configure :development, :test do
       ENV['DATABASE_URL'] = 'sqlite://' + config.DB_FILENAME
     end
+
+    # configure :development, :test do
+    #   ENV['DATABASE_RUL'] = 'postgresql://localhost/' + config.DB_NAME
+    # end
 
     configure :production do
       # Use deployment platform's DATABASE_URL environment variable

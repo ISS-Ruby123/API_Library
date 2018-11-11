@@ -95,8 +95,3 @@ module Mapper
     end
   end
 end
-
-# x = Mapper::SiteMapper.new('../../../config/secrets.yml')
-#                       .load_near_site_list(24.793045, 120.993091, 500)
-
-# puts x.name_addr

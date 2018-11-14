@@ -1,10 +1,37 @@
 .container
-  form role="form" action="/site" method='POST' id='show-site-form'
+  form role="form" action="/site" method='POST' id='show-site-form' 
+    iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDmhT3dKPgbLB3GKyeCK5TZraflEeV7sUE&q=24.800445,120.990444" width="700" height="300" align="center" frameborder="0"
+    br/
+    br/
+    .row.vertical-align.query-bar
+      .col-md-4  
+        <font size="4">     
+        .text-left Radius : 500m
+      .col-md-8
+        form action="form_action.asp" method="get"
+        radius Radius: <input type="text" name="radius" placeholder="e.g. 100"/>
+        input {
+        type="submit" value="Change" class="btn btn-success"
+        }
+      
+        
+    br/
     .row.vertical-align.query-bar
       .col-md-2.col-sm-3
         button { 
           type='submit' id='project-form-submit' class='submit' 
           value='submit' class="btn btn-success" 
-        } Find Toilet
+        } Add Toilet
+    br/
+    .row
+      Name 
+    .row
+      button class="btn bn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" tolet1
+        
+
     .row
       .col-md-12.blank-row
+
+
+  
+

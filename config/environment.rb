@@ -25,10 +25,6 @@ module Site
       ENV['DATABASE_URL'] = 'sqlite://' + config.DB_FILENAME
     end
 
-    # configure :development, :test do
-    #   ENV['DATABASE_RUL'] = 'postgresql://localhost/' + config.DB_NAME
-    # end
-
     configure :production do
       # Use deployment platform's DATABASE_URL environment variable
     end

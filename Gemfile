@@ -8,7 +8,6 @@ gem 'econfig', '~> 2.1'
 gem 'puma', '~> 3.11'
 gem 'roda', '~> 3.8'
 gem 'slim', '~> 3.0'
-gem 'bootstrap', '~> 4.1.1'
 
 # Entity gems
 gem 'dry-struct', '~> 0.5'
@@ -20,6 +19,10 @@ gem 'http', '~> 3.0'
 # Database related
 gem 'hirb'
 gem 'sequel'
+
+group :production do
+  gem 'pg'
+end
 
 group :development, :test do
   gem 'database_cleaner'

@@ -15,6 +15,7 @@ namespace :db do
   task :config do
     require 'sequel'
     require_relative 'config/environment.rb' # load config info
+    require_relative 'spec/helpers/database_helper.rb'
     @app = Site::App
   end
 
@@ -27,7 +28,6 @@ namespace :db do
 
   desc 'Wipe records from all tables'
   task :wipe => :config do
-    require_relative 'spec/helpers/database_helper.rb'
     DatabaseHelper.setup_database_cleaner
     DatabaseHelper.wipe_database
   end
@@ -41,6 +41,9 @@ namespace :db do
 
     FileUtils.rm(@app.config.DB_FILENAME)
     puts "Deleted #{@app.config.DB_FILENAME}"
+
+    # FileUtils.rm(@app.config.DB_NAME)
+    # puts "Deleted #{@app.config.DB_NAME}"
   end
 end
 

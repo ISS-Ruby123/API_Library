@@ -2,7 +2,7 @@
 
 require 'roda'
 require 'slim'
-require_relative '../models/mappers/mapper.rb'
+require_relative '../domain/site/mappers/site_mapper.rb'
 
 # module of controller
 module Controller

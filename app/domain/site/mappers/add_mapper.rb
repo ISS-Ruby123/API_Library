@@ -17,11 +17,12 @@ module Mapper
     end
 
     def match(now_site)
-      MatchMapper.new(@token).match_near_site_list(now_site)
+      MatchAPIMapper.new(@token).match_near_site_list(now_site)
+      MathchDBMapper.new(now_site).match_database()
     end
 
-    # class MatchMapper
-    class MatchMapper
+    # class MatchAPIMapper
+    class MatchAPIMapper
       def initialize(token_source)
         @token = token_source
         @gateway = Gateways::SiteApi.new(@token)
@@ -41,7 +42,23 @@ module Mapper
           if  r_lat <= 0.00005 && r_lng <= 0.00005 then match+=1 end
         end
 
-        if match == 1 then 'Match' else 'No Match' end
+        if match == 1 then false else true end
+      end
+    end
+
+    #class MathchDBMapper
+    class MathchDBMapper
+      def initialize(now_site)
+        @lat = now_site['lat']
+        @lng = now_site['lng']
+      end
+
+      def match_database(@lat,@lng)
+          
+          if  r_lat <= 0.00005 && r_lng <= 0.00005 then match+=1 end
+        end
+
+        if match == 1 then false else true end
       end
     end
   end

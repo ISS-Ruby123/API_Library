@@ -28,14 +28,15 @@ module Mapper
 
       def build_entity
         Entity::SiteEntity.new(
-          sites: sites,
-          address: address_of_sites,
-          location: location_of_sites,
-          latitude: latitude_of_sites,
-          longitude: longitude_of_sites,
-          type: type_of_sites,
+
           name: name_of_sites,
-          name_addr: name_addr
+          address: address_of_sites,
+          lat: latitude_of_sites,
+          lng: longitude_of_sites
+          # sites: sites,
+          # location: location_of_sites,
+          # type: type_of_sites,
+          # name_addr: name_addr
         )
       end
 

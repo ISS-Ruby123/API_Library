@@ -2,6 +2,7 @@
 
 require 'yaml'
 require_relative '../../../infrastructure/gateways/gateways.rb'
+require 'sequel'
 
 module Mapper
   # class AddMapper
@@ -48,18 +49,6 @@ module Mapper
 
     #class MathchDBMapper
     class MathchDBMapper
-      def initialize(now_site)
-        @lat = now_site['lat']
-        @lng = now_site['lng']
-      end
-
-      def match_database(@lat,@lng)
-          
-          if  r_lat <= 0.00005 && r_lng <= 0.00005 then match+=1 end
-        end
-
-        if match == 1 then false else true end
-      end
     end
   end
 
@@ -76,3 +65,6 @@ end
 #                      .trans_to_location('台中市西屯區成都路267號')
 
 # puts x
+
+db = Sequel.connect('Sqlite://SiteOrm')
+x = db[0]

@@ -11,7 +11,6 @@ Sequel.migration do
       String       :address, null: false
       Float        :lat, null: false
       Float        :lng, null: false
-      String       :geocode, unique: true, null: false
 
       DateTime     :created_date
       DateTime     :updated_date

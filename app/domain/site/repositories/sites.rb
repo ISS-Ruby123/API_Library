@@ -41,7 +41,7 @@ module Site
       # param: address: [string] address of site
       # return: [lat, lng]
       def self.find_geocode_by_address(address)
-        location = geocode(address)
+        location = Gateways::SiteApi.geocode_of(address)
         [location['lat'], location['lng']]
       end
 

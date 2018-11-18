@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-require_relative '../entities/site.rb'
-require_relative '../../../infrastructure/database/orms/site_orm.rb'
-require_relative '../../../infrastructure/gateways/gateways.rb'
+# require_relative '../entities/site.rb'
+# require_relative '../../../infrastructure/database/orms/site_orm.rb'
+# require_relative '../../../infrastructure/gateways/gateways.rb'
 
 module Site
   module Repository
@@ -12,13 +12,6 @@ module Site
       # return: array of all records
       def self.all
         Database::SiteOrm.all
-      end
-
-      # Find value of column 'id' by filtering column 'address'
-      # param: address: [string] the address of the site
-      def self.find_id_by_address(address)
-        lbs = Repository::Sites.find_geocode_by_address(address)
-        Database::SiteOrm.where(lat: lbs[0], lng: lbs[1]).all
       end
 
       # Check existence of a site in sites table
@@ -37,20 +30,14 @@ module Site
         Database::SiteOrm.where(lat: lat, lng: lng).all
       end
 
-      # Find latitude and longitude by adrress
-      # param: address: [string] address of site
-      # return: [lat, lng]
-      def self.find_geocode_by_address(address)
-        location = Gateways::SiteApi.geocode_of(address)
-        [location['lat'], location['lng']]
-      end
-
       # Insert a new record to the site table
       # param: name: [string] name of site
       # param: addr: [string] address of site
-      def self.insert(name, address)
-        lbs = Repository::Sites.find_geocode_by_address(address)
-        Database::SiteOrm.insert(name: name, address: address, lat: lbs[0], lng: lbs[1])
+      # param: lat: [float] latitude of site
+      # param: lng: [float] longitude of site
+      def self.insert(name, address, lat, lng)
+        db = Database::SiteOrm
+        db.insert(name: name, address: address, lat: lat, lng: lng)
       end
     end
   end

@@ -24,4 +24,12 @@ module Mapper
             Comment::Repository::Comments.insert(site_id[0][:id],comment)
         end
     end
+
+    # class GetToken
+    class Token
+        def fetch_token(yml_file)
+            token = YAML.safe_load(File.read(yml_file))
+            token['development']['Google_TOKEN']
+        end
+    end
 end

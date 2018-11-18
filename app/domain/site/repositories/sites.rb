@@ -26,7 +26,7 @@ module Site
       # param: lng: [float] longitude
       # return: true if record with fixed (lat, lng) exists, otherwise, false
       def self.exists_by_geocode(lat, lng)
-        !Repository::Sites.find_id_by_geocde(lat, lng).nil?
+        !Repository::Sites.find_id_by_geocode(lat, lng).empty?
       end
 
       # Find value of column 'id' by filtering column 'lat' & 'lng'

@@ -1,3 +1,3 @@
 # frozen_string_literal: true
-require_relative 'comments.rb'
 
+require_relative 'for.rb'

@@ -11,7 +11,7 @@ module Site
       # Find all records of the sites table
       # return: array of all records
       def self.all
-        Database::SiteOrm.all
+        Site::Database::SiteOrm.all
       end
 
       # Check existence of a site in sites table
@@ -19,7 +19,7 @@ module Site
       # param: lng: [float] longitude
       # return: true if record with fixed (lat, lng) exists, otherwise, false
       def self.exists_by_geocode(lat, lng)
-        !Repository::Sites.find_id_by_geocode(lat, lng).empty?
+        !Site::Repository::Sites.find_id_by_geocode(lat, lng).empty?
       end
 
       # Find value of column 'id' by filtering column 'lat' & 'lng'
@@ -27,7 +27,7 @@ module Site
       # param: lng: [float] the longitude of the site
       # return: array of target records
       def self.find_id_by_geocode(lat, lng)
-        Database::SiteOrm.where(lat: lat, lng: lng).all
+        Site::Database::SiteOrm.where(lat: lat, lng: lng).all
       end
 
       # Insert a new record to the site table
@@ -36,7 +36,7 @@ module Site
       # param: lat: [float] latitude of site
       # param: lng: [float] longitude of site
       def self.insert(name, address, lat, lng)
-        db = Database::SiteOrm
+        db = Site::Database::SiteOrm
         db.insert(name: name, address: address, lat: lat, lng: lng)
       end
     end

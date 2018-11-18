@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-# require_relative '../entities/site.rb'
-# require_relative '../../../infrastructure/database/orms/site_orm.rb'
-# require_relative '../../../infrastructure/gateways/gateways.rb'
+require_relative '../entities/site.rb'
+require_relative '../../../infrastructure/database/orms/site_orm.rb'
+require_relative '../../../infrastructure/gateways/gateways.rb'
 
 module Site
   module Repository

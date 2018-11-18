@@ -13,6 +13,7 @@ module Controller
     plugin :assets, path: 'app/views/assets',
                     css: 'style.css', js: 'table_row.js'
     plugin :halt
+    plugin :flash
 
     route do |routing|
       routing.assets # load CSS

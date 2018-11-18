@@ -2,24 +2,24 @@
 
 require 'yaml'
 require_relative '../../../infrastructure/gateways/gateways.rb'
-require 'sequel'
 
 module Mapper
   # class AddMapper
   class AddMapper
-    def initialize(token_source)
+    def initialize(token_source,name,address)
       @token = Mapper::Token.new.fetch_token(token_source)
       @gateway = Gateways::SiteApi.new(@token)
+      @name = name
+      @addr = address
     end
 
-    def trans_to_location(addr)
+    def match(name = @name , addr = @addr)
       now_site = @gateway.geocode_of(addr)
-      match(now_site)
-    end
-
-    def match(now_site)
-      MatchAPIMapper.new(@token).match_near_site_list(now_site)
-      MathchDBMapper.new(now_site).match_database()
+      lat = now_site['lat']
+      lng = now_site['lng']
+      match_api = MatchAPIMapper.new(@token).match_near_site_list(now_site)
+      match_db = Site::Repository::Sites.exists_by_geocode(lat,lng)
+      if match_api == false && match_db == false then Site::Repository::Sites.insert(name,addr,lat,lng) else puts 'already have this site' end
     end
 
     # class MatchAPIMapper
@@ -30,7 +30,7 @@ module Mapper
       end
 
       def load_near_site_list(now_site)
-        @gateway.near_site_list(now_site['lat'],now_site['lng'],100)
+        @gateway.near_site_list(now_site['lat'],now_site['lng'],50)
       end
 
       def match_near_site_list(now_site)
@@ -43,12 +43,8 @@ module Mapper
           if  r_lat <= 0.00005 && r_lng <= 0.00005 then match+=1 end
         end
 
-        if match == 1 then false else true end
+        if match == 1 then true else false end
       end
-    end
-
-    #class MathchDBMapper
-    class MathchDBMapper
     end
   end
 
@@ -60,11 +56,3 @@ module Mapper
     end
   end
 end
-
-# x = Mapper::AddMapper.new('../../../../config/secrets.yml')
-#                      .trans_to_location('台中市西屯區成都路267號')
-
-# puts x
-
-db = Sequel.connect('Sqlite://SiteOrm')
-x = db[0]

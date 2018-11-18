@@ -2,7 +2,10 @@
 
 require_relative '../../../infrastructure/database/orms/comment_orm.rb'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> b2edd6cffba602482e9be6db4466e9b9e6d6a2b6
 module Comment
   module Repository
     # Repository for Comment Entities

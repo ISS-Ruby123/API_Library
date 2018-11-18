@@ -40,6 +40,7 @@ group :test do
   gem 'minitest-rg', '~> 5.2'
   gem 'simplecov', '~> 0.16'
   gem 'vcr', '~> 4.0'
+  gem 'watir'
   gem 'webmock', '~> 3.4'
 end
 

@@ -6,6 +6,8 @@ require 'econfig'
 module Site
   # Configuration for the App
   class App < Roda
+    use Rack::Session::Cookie, secret: config.SESSION_SECRET
+    
     plugin :environments
 
     extend Econfig::Shortcut

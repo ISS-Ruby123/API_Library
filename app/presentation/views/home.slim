@@ -1,37 +1,46 @@
 .container
-  form role="form" action="/site" method='POST' id='show-site-form' 
-    iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDmhT3dKPgbLB3GKyeCK5TZraflEeV7sUE&q=24.800445,120.990444" width="700" height="300" align="center" frameborder="0"
-    br/
-    br/
-    .row.vertical-align.query-bar
-      .col-md-4  
-        <font size="4">     
-        .text-left Radius : 500m
-      .col-md-8
-        form action="form_action.asp" method="get"
-        radius Radius: <input type="text" name="radius" placeholder="e.g. 100"/>
-        input {
-        type="submit" value="Change" class="btn btn-success"
-        }
-      
-        
-    br/
-    .row.vertical-align.query-bar
-      .col-md-2.col-sm-3
+  /form role="form" action="/show_site" method='POST' id='show-site-form' 
+  iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDmhT3dKPgbLB3GKyeCK5TZraflEeV7sUE&q=24.800445,120.990444" width="700" height="300" align="center" frameborder="0"
+  br/
+  br/
+  hr/
+  .row
+    .col-md-3.col-sm-3
+      <font size="5">     
+      .text-left Default : 500m
+      br/
+    .col-md-1.col-sm-3
+      form role="form" action="/home" method='POST' id='show-project-form'
+    .col-md-auto
+        input { 
+          type='text' name='radius'
+          id='radius_input' class="form-control"
+          placeholder="e.g. 200"
+      }
+    .col-md-2.col-sm-3
         button { 
-          type='submit' id='project-form-submit' class='submit' 
+          type='submit' id='radius_change' class='submit' 
           value='submit' class="btn btn-success" 
-        } Add Toilet
-    br/
-    .row
-      Name 
-    .row
-      button class="btn bn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" tolet1
-        
+        } Change
 
-    .row
-      .col-md-12.blank-row
-
-
+  .row
+    .col-md-2.col-sm-3
+      button { 
+        type='button' id='project-form-submit' class='submit' 
+        value='submit' class="btn btn-success" 
+      } Add Toilet
+  br/
   
-
+  .row 
+    .col-md-12.blank-row 
+      table class="table table-striped" id="Toilt-List"
+        thead
+          tr
+            th Name
+            th Address
+        tbody
+  .row
+    button class="btn bn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" tolet1
+      
+  .row
+    .col-md-12.blank-row

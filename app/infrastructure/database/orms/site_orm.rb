@@ -7,9 +7,9 @@ module Site
   module Database
     # Object-Relational Mapper for Members
     class SiteOrm < Sequel::Model(:sites)
-      one_to_many :comment,
-                  class: :'Site::Database::CommentOrm',
-                  key: :comment_id
+      one_to_many :rate,
+                  class: :'Site::Database::RateOrm',
+                  key: :rate_id
 
       plugin :timestamps, update_on_create: true
 

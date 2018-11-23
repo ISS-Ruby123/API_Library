@@ -67,7 +67,7 @@ module Mapper
       def longitude_of_sites
         @data.reduce([]) do |lng_list, site|
           lng_list << site['location']['lng']
-       end
+        end
       end
 
       def type_of_sites

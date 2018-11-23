@@ -13,7 +13,7 @@ module Mapper
       @addr = address
     end
 
-    def match(name = @name , addr = @addr)
+    def match(name = @name, addr = @addr)
       now_site = @gateway.geocode_of(addr)
       lat = now_site['lat']
       lng = now_site['lng']

@@ -6,7 +6,7 @@ require 'pg'
 module Site
   module Database
     # Object-Relational Mapper for Members
-    class CommentOrm < Sequel::Model(:comments)
+    class RateOrm < Sequel::Model(:rates)
       many_to_one :site,
                   class: :'Site::Database::SiteOrm'
 

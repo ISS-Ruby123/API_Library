@@ -5,11 +5,12 @@ require 'pg'
 
 Sequel.migration do
   change do
-    create_table(:comments) do
+    create_table(:rates) do
       primary_key  :id
       foreign_key  :site_id, :sites
 
-      String       :feedback, unique: false, null: false
+      Integer      :rate, unique: false, null: false
+      String       :comment, unique: false, null: true
 
       DateTime :created_date
       DateTime :updated_date
